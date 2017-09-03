@@ -36,7 +36,7 @@ class Ourteams extends Component{
                <div className="container g-py-100">
                    <div className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                        <div className="" style={{textAlign:'center'}}>
-                           <h2 className="g-font-weight-400 g-font-size-20">THEMIS的团队</h2>
+                           <h2 className="g-font-weight-400 g-font-size-24">THEMIS的团队</h2>
                            <div className="nl-underline g-mb-30">
                                <span className="nl-style"></span>
                            </div>

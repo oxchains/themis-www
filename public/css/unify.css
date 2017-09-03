@@ -26735,6 +26735,9 @@ pre[class*="language-"] .toolbar-item a {
   .g-width-80x--sm {
     width: 80% !important;
     /* R */ }
+    .g-width-80--sm {
+        width: 80px !important;
+        /* R */ }
   .g-width-485--sm {
     width: 485px !important;
     /* O */
@@ -26797,6 +26800,9 @@ pre[class*="language-"] .toolbar-item a {
   .g-width-100x--lg {
     width: 100% !important;
     /* P */ }
+    .g-width-120--lg {
+        width: 120px !important;
+        /* P */ }
   .g-width-155--lg {
     width: 155px !important;
     /* O */ }

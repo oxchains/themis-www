@@ -27,11 +27,11 @@ class Application extends Component{
         return(
             <section id="application" className="g-pt-50">
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>
-                    <h2 className="g-font-weight-400 nl-home-title g-font-size-20">THEMIS的应用场景</h2>
+                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24 g-color-white">THEMIS的应用场景</h2>
                     <div className="nl-underline g-mb-15">
                         <span className="nl-style"></span>
                     </div>
-                    <p className="mb-0 g-line-height-1_3 g-mb-100 g-font-size-14">Themis构建的以数字货币为媒介的公平交换系统，采用链上资产托管促成公平交换机制，能有效解决数字货币交易兑换、电商平台托管支付、监管账户安全托管、多主体交易数字资产托管等应用场景问题，为数字世界中的公平交换提供了全新的解决方案。</p>
+                    <p className="mb-0 g-line-height-1_3 g-mb-100 g-font-size-14 g-color-white">Themis构建的以数字货币为媒介的公平交换系统，采用链上资产托管促成公平交换机制，能有效解决数字货币交易兑换、电商平台托管支付、监管账户安全托管、多主体交易数字资产托管等应用场景问题，为数字世界中的公平交换提供了全新的解决方案。</p>
                 </div>
                 <div className="container px-0">
                     <div className="row no-gutters">

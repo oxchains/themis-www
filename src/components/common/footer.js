@@ -3,40 +3,145 @@ import React,{ Component }from 'react';
 class Footer extends Component{
     render(){
         return(
-            <footer className="nl-footer g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20">
-                <div className="container">
-                     <div className="row">
-                            <div className="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
-                            <div >
-                                <div  className="navbar-brand footer-brand"><img className='nl_logo' src="./public/img/nl_logo.png" alt=""/>THEMIS</div>
-                        <div  className="footer-copyright des d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">From de-centralized digital currency to de-centralized digital </div>
-                        <small className="footer-copyright d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2017 © All Rights Reserved.京ICP备16063652号</small>
-                 </div>
-             </div>
 
-                <div className="col-md-4 align-self-center">
-                        <ul className="list-inline text-center text-md-right mb-0">
-                        <li className="list-inline-item g-mx-10" data-toggle="tooltip"  title="wechat">
-                            {/*<a href="#" className="g-color-white-opacity-0_5 g-color-white--hover">*/}
-                                {/*<i className="fa fa-wechat fa-lg" ></i>*/}
+
+
+        <div className="shortcode-html nl-footer">
+
+            <footer className="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 text-center g-pt-40 g-pb-20">
+
+                <div className="container">
+                    <a className="d-block g-width-200 g-opacity-0_5 mx-auto g-mb-20" href="index.html">
+                        <img className="img-fluid" src="public/img/nl_logo.png" alt="Logo"/>
+                    </a>
+
+                    {/*<ul className="list-inline g-mb-20">*/}
+                        {/*<li className="list-inline-item g-mx-5">*/}
+                            {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
+                                {/*<i className="fa fa-twitter"></i>*/}
                             {/*</a>*/}
-                            <div className="g-width-85 g-height-85 g-mb-10">
-                                <img className="img-fluid" src="public/img/wechat.jpeg" alt=""/>
-                            </div>
-                        </li>
-                    {/*<li className="list-inline-item g-mx-10" data-toggle="tooltip"  title="qq">*/}
-                        {/*<a href="#" className="g-color-white-opacity-0_5 g-color-white--hover"><i className="fa fa-qq fa-lg"></i></a>*/}
-                    {/*</li>*/}
-            </ul>
-                <ul className="list-inline text-center text-md-right mb-0">
-                    <li className="list-inline-item g-mx-10">
-                    <a href="#" className="clause">法律条款和声明</a>
-                    </li>
-                </ul>
+                        {/*</li>*/}
+                        {/*<li className="list-inline-item g-mx-5">*/}
+                            {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
+                                {/*<i className="fa fa-pinterest-p"></i>*/}
+                            {/*</a>*/}
+                        {/*</li>*/}
+                        {/*<li className="list-inline-item g-mx-5">*/}
+                            {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
+                                {/*<i className="fa fa-facebook"></i>*/}
+                            {/*</a>*/}
+                        {/*</li>*/}
+                        {/*<li className="list-inline-item g-mx-5">*/}
+                            {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
+                                {/*<i className="fa fa-linkedin"></i>*/}
+                            {/*</a>*/}
+                        {/*</li>*/}
+                    {/*</ul>*/}
+
+                    <div className="g-width-70x--md mx-auto">
+                        <p className="mb-0">From de-centralized digital currency to de-centralized digital</p>
+                    </div>
                 </div>
-            </div>
-            </div>
-        </footer>
+
+
+                <hr className="footer-line g-my-20"/>
+
+
+                    <div className="container">
+                        <div className="row">
+
+                            <div className="col-sm-12 col-lg g-mb-0--lg">
+                                <h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20 ">
+                                    <img className="img-fluid g-width-120 g-height-120  " src="public/img/wechat.jpeg" alt=""/>
+                                </h2>
+                                <ul className="list-unstyled mb-0">
+                                    <li className="g-mb-8">
+                                        <a className="g-color-white-opacity-0_8" href="#"><i className="fa fa-wechat"></i></a>
+                                    </li>
+                                    <li>
+                                        添加群秘，加入官方微信群
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+                            {/*<div className="col-sm-6 col-lg g-mb-30 g-mb-0--lg">*/}
+                                {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Customer Support</h2>*/}
+                                {/*<ul className="list-unstyled mb-0">*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Vivamus egestas sapien</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Sed convallis nec enim</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Pellentesque a tristique risus</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li>*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Nunc vitae libero lacus</a>*/}
+                                    {/*</li>*/}
+                                {/*</ul>*/}
+                            {/*</div>*/}
+
+
+
+                            {/*<div className="col-sm-6 col-lg">*/}
+                                {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Top Link</h2>*/}
+                                {/*<ul className="list-unstyled mb-0">*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Pellentesque a tristique risus</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Nunc vitae libero lacus</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li>*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
+                                    {/*</li>*/}
+                                {/*</ul>*/}
+                            {/*</div>*/}
+
+
+
+                            {/*<div className="col-sm-6 col-lg">*/}
+                                {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Useful Links</h2>*/}
+                                {/*<ul className="list-unstyled mb-0">*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li className="g-mb-8">*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
+                                    {/*</li>*/}
+                                    {/*<li>*/}
+                                        {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
+                                    {/*</li>*/}
+                                {/*</ul>*/}
+                            {/*</div>*/}
+
+                        </div>
+                    </div>
+
+
+                    <hr className="footer-line g-my-20"/>
+                <div className="container">
+                    <small className="g-font-size-default">
+                        <a className="g-color-white" href="#">法律条款和声明</a></small>
+                </div>
+
+                        <div className="container">
+                            <small className="copyright">2017 © All Rights Reserved.京ICP备16063652号</small>
+                        </div>
+
+            </footer>
+
+        </div>
+
 
     )
     }

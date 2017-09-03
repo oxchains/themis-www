@@ -2,7 +2,7 @@ import React,{ Component } from 'react';
 import Technology from './technology';
 import  Banner from './banner';
 import Application from './application';
-import Streamer from './home-streamer';
+import Partner from './partner';
 import  Advantage from './advantage'
 import Ourteams from "./ourteams";
 import Circuit from './circuit'
@@ -16,7 +16,7 @@ class Home extends Component{
                 <Banner/>
                 <Technology/>
                 <Application/>
-                <Streamer/>
+                <Partner/>
                 <Advantage/>
                 <Circuit/>
                 <Ourteams/>
