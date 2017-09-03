@@ -52,7 +52,7 @@ class Technology extends Component{
                         <div className="row align-items-center  justify-content-between g-pb-50">
                             <div className="col-sm-6 col-lg-5 offset-lg-1 flex-sm-unordered g-mb-30">
                                 <p className='g-font-size-18'><i className="fa fa-circle"></i><span className="g-pl-20">非交互式零知识证明</span></p>
-                                <p className="g-font-size-16 g-pl-30 g-pr-30">Themis利用非交互式零知识证明解决隐私问题，一是在群托管服务协议中，保证交易双方提供给托管节点的密钥份额是真实的；二是在可验证洗牌协议中，验证者用来检查洗牌服务器是否正确地执行了它的随机操作；三是在声誉系统中用来生成匿名声誉预算的零知识证明。</p>
+                                <p className="g-font-size-16 g-pl-30 g-pr-30">Themis利用非交互式零知识证明解决隐私问题，一是在群托管服务协议中，保证交易双方提供给托管节点的密钥份额是真实的；二是在可验证洗牌协议中，验证者用来检查洗牌服务器是否正确地执行了它的随机操作；三是在声誉系统中生成匿名声誉预算的零知识证明。</p>
                             </div>
                             <div className="col-sm-6 col-lg-4 offset-lg-1 flex-sm-first g-mb-30">
                                 <div className="g-pos-rel text-center">
