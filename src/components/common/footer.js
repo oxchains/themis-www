@@ -39,7 +39,7 @@ class Footer extends Component{
                     {/*</ul>*/}
 
                     <div className="g-width-70x--md mx-auto">
-                        <p className="mb-0">From de-centralized digital currency to de-centralized digital</p>
+                        <p className="mb-0">From de-centralized digital currency to de-centralized digital commerce.</p>
                     </div>
                 </div>
 
