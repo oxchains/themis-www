@@ -8,7 +8,7 @@ class Consultant extends Component{
             <div className="col-lg-4 g-px-40 g-mb-50 g-mb-0--lg" key={index}>
                 <div className="text-center">
                             <span className="d-inline-block  u-icon-size--xl rounded-circle g-mb-30">
-                              <img className="imgborder" src={item.src} alt=""/>
+                              <img className="imgborder g-width-110" style={{height:"115px"}} src={item.src} alt=""/>
                             </span>
                     <h3 className="h5 g-color-gray-dark-v2 g-font-weight-600 g-font-size-16 text-uppercase mb-3">{item.name}</h3>
                     <p className="mb-0 text-left g-font-size-12">{item.info}</p>
