@@ -97,14 +97,16 @@
 }
 .banner-btn{
     box-shadow: 1px 1px 1px  #ffe63f;
-    color: #313131;
+    color: #313131 !important   ;
     background: -moz-linear-gradient( left,#f0a401,#ffe63f);
     background: linear-gradient( left,#f0a401,#ffe63f);
     background: -webkit-linear-gradient( left,#f0a401,#ffe63f);
 }
 .banner-btn:hover{
+    color: #313131 !important;
     background: #ffa200;
 }
+
 /*banner结束*/
 
 
@@ -233,8 +235,8 @@
 .ahover
 {
     cursor: pointer;
-    color:#313131;
-    text-decoration:none;
+    color:#313131 !important;
+    text-decoration:none !important;
 }
 .ahover:hover
 {

@@ -173,7 +173,7 @@ class Banner extends Component{
                                     </div>
 
 
-                                    <div className="banner-btn tp-caption rev-btn  tp-resizeme rs-parallaxlevel-4"
+                                    <div className="banner-btn  divfontcolor tp-caption rev-btn  tp-resizeme rs-parallaxlevel-4"
                                          href="#portfolio-section" target="_self" id="slide-2800-layer-5"
                                          data-x="['left','left','center','center']" data-hoffset="['630','525','105','100']"
                                          data-y="['middle','middle','middle','middle']" data-voffset="['240','240','240','240']"
