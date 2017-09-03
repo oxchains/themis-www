@@ -1,12 +1,15 @@
+const path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
+
 module.exports = {
     entry: [
         './src/index.js'
     ],
-    devtool: 'source-map',
     output: {
-        path: __dirname,
+        path: __dirname + '/dist',
         publicPath: '/',
-        filename: 'bundle.js'
+        filename: 'bundle.[chunkhash:8].js'
     },
     module: {
         loaders: [{
@@ -18,11 +21,26 @@ module.exports = {
         },{
             test: /\.css$/,
             loader: "style-loader!css-loader"
+        },{
+            test: /\.html$/,
+            loader: "html-loader"
         }]
     },
     resolve: {
         extensions: [ '.js', '.jsx',  '.css']
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.join(__dirname, 'index.html'),
+            filename: 'index.html',
+            inject: 'body'
+        }),
+        new CopyWebpackPlugin([{
+            from: './public',
+            to: 'public'
+        }])
+    ],
+    devtool: 'source-map',
     devServer: {
         historyApiFallback: true,
         contentBase: './'
