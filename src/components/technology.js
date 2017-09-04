@@ -73,7 +73,7 @@ class Technology extends Component{
                             </div>
                             <div className="col-sm-6 col-lg-4 g-mb-30">
                                 <div className="g-pos-rel text-center">
-                                    <img className='img-fluid' src="./public/img/technology2.png" alt=""/>
+                                    <img className='img-fluid' src="./public/img/technology5.png" alt=""/>
                                 </div>
                             </div>
                         </div>

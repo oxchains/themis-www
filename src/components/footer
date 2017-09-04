@@ -4,7 +4,7 @@
                             <div className="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
                             <div >
                                 <div  className="navbar-brand footer-brand"><img className='nl_logo' src="./public/img/nl_logo.png" alt=""/>THEMIS</div>
-                        <div  className="footer-copyright des d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">From de-centralized digital currency to de-centralized digital </div>
+                        <div  className="footer-copyright des d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">From de-centralized digital currency to de-centralized digital commerce.</div>
                         <small className="footer-copyright d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2017 © All Rights Reserved.京ICP备16063652号</small>
                  </div>
              </div>
