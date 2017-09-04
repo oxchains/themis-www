@@ -134,9 +134,9 @@ class Footer extends Component{
                         <a className="g-color-white" href="#">法律条款和声明</a></small>
                 </div>
 
-                        <div className="container">
-                            <small className="copyright">2017 © All Rights Reserved.京ICP备16063652号</small>
-                        </div>
+                        {/*<div className="container">*/}
+                            {/*<small className="copyright">2017 © All Rights Reserved.京ICP备16063652号</small>*/}
+                        {/*</div>*/}
 
             </footer>
 
