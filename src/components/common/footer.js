@@ -39,7 +39,7 @@ class Footer extends Component{
                     {/*</ul>*/}
 
                     <div className="g-width-70x--md mx-auto">
-                        <p className="mb-0">From de-centralized digital currency to de-centralized digital</p>
+                        <p className="mb-0">From de-centralized digital currency to de-centralized digital commerce.</p>
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@ class Footer extends Component{
                                 </h2>
                                 <ul className="list-unstyled mb-0">
                                     <li className="g-mb-8">
-                                        <a className="g-color-white-opacity-0_8" href="#"><i className="fa fa-wechat"></i></a>
+                                        <a className="g-color-white-opacity-0_8" href="#"><i className="fa fa-wechat fa-2x"></i></a>
                                     </li>
                                     <li>
                                         添加群秘，加入官方微信群

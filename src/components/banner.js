@@ -39,7 +39,8 @@ class Banner extends Component{
                                          data-lineheight="['37','34','25','30']"
                                          data-width="none"
                                          data-height="none"
-                                         data-fontsize="['30','26','20','20']"
+                                         data-fontsize="['37','34','34','34']"
+                                         // data-fontsize="['30','26','20','30']"
                                          data-whitespace="nowrap"
 
                                          data-type="text"
@@ -65,7 +66,7 @@ class Banner extends Component{
                                      data-width="none"
                                      data-height="none"
                                      data-whitespace="nowrap"
-                                     data-fontsize="['20','18','16','16']"
+                                     data-fontsize="['24','24','26','24']"
                                      data-type="text"
                                      data-responsive_offset="on"
 
@@ -104,8 +105,9 @@ class Banner extends Component{
                                 <div className="tp-caption   tp-resizeme rs-parallaxlevel-4"
                                      id="slide-2801-layer-2"
                                      data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']"
-                                     data-y="['middle','middle','middle','middle']" data-voffset="['30','30','30','30']"
-                                     data-fontsize="['20','18','16','16']"
+                                     data-y="['middle','middle','middle','middle']" data-voffset="['20','20','20','20']"
+                                     // data-fontsize="['20','18','16','16']"
+                                     data-fontsize="['24','24','26','24']"
                                      data-lineheight="['40','40','35','40']"
                                      data-width="none"
                                      data-height="none"
@@ -159,7 +161,7 @@ class Banner extends Component{
                                          data-width="none"
                                          data-height="none"
                                          data-whitespace="nowrap"
-
+                                         data-lineheight="[40,40,60,60]"
                                          data-type="button"
                                          data-responsive_offset="on"
 
@@ -169,7 +171,7 @@ class Banner extends Component{
                                          data-paddingright="[50,50,50,50]"
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[50,50,50,50]"
-                                         style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px', lineHeight: '40px',borderRadius:'5px',outline:'none',boxShadow:'1px 1px 1px yellow',boxSizing:'border-box',cursor:'pointer'}}> I C O
+                                         style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px', borderRadius:'5px',outline:'none',boxShadow:'1px 1px 1px yellow',boxSizing:'border-box',cursor:'pointer'}}> I C O
                                     </div>
 
 
@@ -182,7 +184,7 @@ class Banner extends Component{
                                          data-whitespace="nowrap"
 
                                          data-type="button"
-
+                                         data-lineheight="[40,40,60,60]"
                                          data-responsive_offset="on"
 
                                          data-frames='[{"from":"x:50px;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
@@ -191,7 +193,7 @@ class Banner extends Component{
                                          data-paddingright="[50,50,50,50]"
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[50,50,50,50]"
-                                         style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px', lineHeight: '40px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
+                                         style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
                                         <a className="ahover"  href="https://downloads.oxchains.com/themis/Themis-Whitepaper-CH-v1.0.1.pdf">白皮书</a>
                                     </div>
                             </li>
