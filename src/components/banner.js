@@ -161,7 +161,7 @@ class Banner extends Component{
                                          data-width="none"
                                          data-height="none"
                                          data-whitespace="nowrap"
-                                         data-lineheight="[40,40,60,60]"
+                                         data-lineheight="[50,40,60,60]"
                                          data-type="button"
                                          data-responsive_offset="on"
 
@@ -184,7 +184,7 @@ class Banner extends Component{
                                          data-whitespace="nowrap"
 
                                          data-type="button"
-                                         data-lineheight="[40,40,60,60]"
+                                         data-lineheight="[50,40,60,60]"
                                          data-responsive_offset="on"
 
                                          data-frames='[{"from":"x:50px;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
