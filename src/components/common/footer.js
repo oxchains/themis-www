@@ -1,4 +1,5 @@
 import React,{ Component }from 'react';
+import {Link} from 'react-router-dom';
 
 class Footer extends Component{
     render(){
@@ -129,7 +130,7 @@ class Footer extends Component{
                     <hr className="footer-line g-my-20"/>
                 <div className="container">
                     <small className="g-font-size-default">
-                        <a className="g-color-white" href="#">法律条款和声明</a></small>
+                        <Link className="g-color-white" to="/law">法律条款和声明</Link></small>
                 </div>
 
                         {/*<div className="container">*/}
