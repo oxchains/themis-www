@@ -13,15 +13,8 @@ class Header extends Component{
         location.reload()
     }
     render(){
-<<<<<<< HEAD
-        const links = [
-            {path: '/', title: '首页'},
-            // {path: '/ico', title: 'ICO'},
-        ]
-=======
->>>>>>> 0952675a2b59abfa5a08cee9f8338445907d4b7f
-        return(
 
+        return(
             <div id="js-header" className="u-header u-header--static u-header--show-hide u-header--change-appearance"
                  data-header-fix-moment="500"
                  data-header-fix-effect="slide">
