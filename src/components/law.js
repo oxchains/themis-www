@@ -11,10 +11,10 @@ class Law extends Component{
     }
     render(){
         return(
-            <div ref={node => this.node = node}>
+            <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
                 <Lawbanner/>
                 <Article/>
-            </div>
+            </section>
         )
     }
 }

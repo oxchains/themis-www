@@ -13,7 +13,6 @@ class Header extends Component{
         location.reload()
     }
     render(){
-
         return(
             <div id="js-header" className="u-header u-header--static u-header--show-hide u-header--change-appearance"
                  data-header-fix-moment="500"

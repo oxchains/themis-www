@@ -3,9 +3,14 @@
 }
 /*header开始*/
 .u-header{
+<<<<<<< HEAD
     /*float: left;*/
   /*position: fixed;*/
     /*background-color: rgba(0, 0, 0, 0.8) !important;*/
+=======
+  /*position: absolute;*/
+    /*background-color: rgba(0,0,0,0.8);*/
+>>>>>>> ad04e8fb1d1c041c1f9c230f57702512aeaf37b7
 }
 /*.header{*/
     /*position: absolute;*/
@@ -85,9 +90,17 @@
 /*footer结束*/
 
 /*banner开始*/
+<<<<<<< HEAD
 .banner{
     margin-top: -62px;
 }
+=======
+.banner
+{
+    margin-top: -62px;
+}
+
+>>>>>>> ad04e8fb1d1c041c1f9c230f57702512aeaf37b7
 /*.banner-title1{*/
     /*font-size: 33px;*/
 /*}*/
@@ -284,10 +297,12 @@
     display: flex;
     justify-content:center;
     align-content: center;
+    /*position: relative;*/
+
 }
 .en-title
 {
-   margin-bottom: 3rem;
+   margin-bottom: 1.5rem;
 }
 .section-law
 {
@@ -307,6 +322,7 @@
 {
     margin-bottom: 0.3rem!important;
     font-size: 12px;
+    font-family: "Microsoft YaHei";
 }
 #lawbanner
 {
