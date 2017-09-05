@@ -9,7 +9,7 @@
  */
 import React,{ Component } from 'react';
 
-class Lawhead extends Component{
+class Lawbanner extends Component{
     render(){
         return(
             <section id="lawbanner"  className="g-bg-cover g-bg-size-cover g-bg-white-gradient-opacity-v1--after" >
@@ -35,7 +35,7 @@ class Lawhead extends Component{
         )
     }
 }
-export default  Lawhead;
+export default  Lawbanner;
 
 
 
