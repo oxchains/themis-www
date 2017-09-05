@@ -4,8 +4,6 @@ class Footer extends Component{
     render(){
         return(
 
-
-
         <div className="shortcode-html nl-footer">
 
             <footer className="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 text-center g-pt-40 g-pb-20">
