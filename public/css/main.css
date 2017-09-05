@@ -3,12 +3,13 @@
 }
 /*header开始*/
 .u-header{
-  position: absolute;
+  /*position: absolute;*/
+    background-color: black;
 }
-.header{
-    position: absolute;
-    top:0;
-}
+/*.header{*/
+    /*position: absolute;*/
+    /*top:0;*/
+/*}*/
 .nav-item .nav-download{
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -83,6 +84,11 @@
 /*footer结束*/
 
 /*banner开始*/
+.banner
+{
+    margin-top: -62px;
+}
+
 /*.banner-title1{*/
     /*font-size: 33px;*/
 /*}*/
