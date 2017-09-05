@@ -3,17 +3,23 @@ import {connect} from 'react-redux';
 import {Link} from "react-router-dom";
 
 class Header extends Component{
-    renderLink({path, title}) {
-        return (<li key={path} className={'nav-item g-mx-25--lg'}>
-            <Link className={'nav-link nl-nav-link g-px-0'}  to={path}>{title}</Link>
-        </li>)
-    }
+    constructor(props) {
+        super(props);
+        this.state = { }
 
+       this.renderrow = this.renderrow.bind(this)
+    }
+    renderrow(){
+        location.reload()
+    }
     render(){
+<<<<<<< HEAD
         const links = [
             {path: '/', title: '首页'},
             // {path: '/ico', title: 'ICO'},
         ]
+=======
+>>>>>>> 0952675a2b59abfa5a08cee9f8338445907d4b7f
         return(
 
             <div id="js-header" className="u-header u-header--static u-header--show-hide u-header--change-appearance"
@@ -43,8 +49,16 @@ class Header extends Component{
 
                             <div className="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--sm" id="navBar">
                                 <ul id="js-scroll-nav" className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
-
-                                    {links.map(this.renderLink)}
+                                    <li className='nav-item g-mx-25--lg'>
+                                        <Link to="/" className='nav-link nl-nav-link g-px-0' onClick={this.renderrow}>
+                                            首页
+                                        </Link>
+                                    </li>
+                                    {/*<li className='nav-item g-mx-25--lg'>*/}
+                                        {/*<Link  to="/ico" className='nav-link nl-nav-link g-px-0' >*/}
+                                            {/*ICO*/}
+                                        {/*</Link>*/}
+                                    {/*</li>*/}
 
                                     <li className='nav-item g-mx-25--lg'>
                                         <a href="#ourteam" className='nav-link nl-nav-link g-px-0' >
