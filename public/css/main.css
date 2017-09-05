@@ -83,15 +83,15 @@
 /*footer结束*/
 
 /*banner开始*/
-.banner-title1{
-    font-size: 33px;
-}
-.banner-title2{
-    font-size: 22px;
-}
-.banner-title3{
-    font-size: 12px;
-}
+/*.banner-title1{*/
+    /*font-size: 33px;*/
+/*}*/
+/*.banner-title2{*/
+    /*font-size: 22px;*/
+/*}*/
+/*.banner-title3{*/
+    /*font-size: 12px;*/
+/*}*/
 .nl-main{
     color: #f0a401;
 }
@@ -262,7 +262,7 @@
     text-decoration:none;
 }
 .copyright{
-    color: #a6a6a6;
+    color: #6c6c6c;
    font-size: .5rem;
 }
 .footer-line{

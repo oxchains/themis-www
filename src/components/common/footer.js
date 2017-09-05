@@ -57,7 +57,7 @@ class Footer extends Component{
                                 </h2>
                                 <ul className="list-unstyled mb-0">
                                     <li className="g-mb-8">
-                                        <a className="g-color-white-opacity-0_8" href="#"><i className="fa fa-wechat"></i></a>
+                                        <a className="g-color-white-opacity-0_8" href="#"><i className="fa fa-wechat fa-2x"></i></a>
                                     </li>
                                     <li>
                                         添加群秘，加入官方微信群
@@ -135,9 +135,9 @@ class Footer extends Component{
                         <Link className="g-color-white" to="/law">法律条款和声明</Link></small>
                 </div>
 
-                        <div className="container">
-                            <small className="copyright">2017 © All Rights Reserved.京ICP备16063652号</small>
-                        </div>
+                        {/*<div className="container">*/}
+                            {/*<small className="copyright">2017 © All Rights Reserved.京ICP备16063652号</small>*/}
+                        {/*</div>*/}
 
             </footer>
 
