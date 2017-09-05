@@ -12,7 +12,7 @@ import React,{ Component } from 'react';
 class Lawbanner extends Component{
     render(){
         return(
-            <section id="lawbanner"  className="g-bg-cover g-bg-size-cover g-bg-white-gradient-opacity-v1--after">
+            <section id="lawbanner"  className="banner g-bg-cover g-bg-size-cover g-bg-white-gradient-opacity-v1--after">
                 <div className="container text-center g-pos-rel g-z-index-1 g-pb-50">
                     <div className="row d-flex justify-content-center align-content-end flex-wrap g-min-height-500">
                         <div className="col-lg-10 mt-auto">
