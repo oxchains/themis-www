@@ -179,7 +179,7 @@ class Banner extends Component{
                                          href="#portfolio-section" target="_self" id="slide-2800-layer-5"
                                          data-x="['left','left','center','center']"
                                          // data-hoffset="['630','525','105','100']"
-                                         data-hoffset="['555','525','105','100']"
+                                         data-hoffset="['555','450','0','0']"
                                          data-y="['middle','middle','middle','middle']" data-voffset="['240','240','240','240']"
                                          data-width="none"
                                          data-height="none"
