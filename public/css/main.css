@@ -122,6 +122,15 @@
     background: linear-gradient( left,#f0a401,#f8cc08);
     background: -webkit-linear-gradient( left,#f0a401,#f8cc08);
 }
+.nl-stylelaw
+{
+    display: inline-block;
+    width:7rem;
+    height:2px;
+    background: -moz-linear-gradient( left,#f0a401,#f8cc08);
+    background: linear-gradient( left,#f0a401,#f8cc08);
+    background: -webkit-linear-gradient( left,#f0a401,#f8cc08);
+}
 
 .nl-underline-sm{
     width: 100%;
@@ -258,4 +267,44 @@
 }
 .footer-line{
     background-color: #272727;
+}
+.g-law-width
+{
+    width: 90px;
+    font-size: 22px;
+    border-bottom: 2px solid #ffa200;
+}
+.lawcenter
+{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+.en-title
+{
+   margin-bottom: 3rem;
+}
+.section-law
+{
+    /*border:1px solid black;*/
+    box-shadow: 0px 1px 30px 1px #d9d9d9 ;
+}
+.artile-title
+{
+    margin-bottom: 30px!important;
+    font-size: 18px;
+}
+.width-text
+{
+    width: 90%;
+    margin: 3rem  auto 0 auto;
+}
+.width-text>p
+{
+    margin-bottom: 0.3rem!important;
+    font-size: 12px;
+}
+#lawbanner
+{
+    background-image: url('../../public/img/lawbg.jpg');
 }

@@ -340,7 +340,7 @@
    */
   HSScrollNavSection.prototype.changeHash = function() {
     this.section.attr('id', '');
-    window.location.hash = this.element.attr('href');
+    // window.location.hash = this.element.attr('href');
     this.section.attr('id', this.element.attr('href').slice(1));
   };
 

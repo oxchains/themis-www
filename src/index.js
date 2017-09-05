@@ -9,6 +9,7 @@ import {Route, BrowserRouter, Switch, Redirect,IndexRoute} from 'react-router-do
 import Header from  './components/common/header';
 import Footer from './components/common/footer';
 import Home from './components/home'
+import Law from './components/law'
 
 //
 // const createStoreWithMiddleware = compose(
@@ -25,7 +26,9 @@ ReactDOM.render(
                     <Switch>
                         {/*<Route path="/ico" component={Ico}/>*/}
                         {/*<Route path="/team" component={Team}/>*/}
+                        <Route path="/law" component={Law}/>
                         <Route path="/" component={Home}/>
+
                     </Switch>
                     <Footer/>
                 </main>
