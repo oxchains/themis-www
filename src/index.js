@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import ReactDOM from 'react-dom';
-import {Route, BrowserRouter, Switch, Redirect,IndexRoute} from 'react-router-dom';
+import {Route, BrowserRouter, Switch, Redirect} from 'react-router-dom';
 // import {Provider} from 'react-redux';
 // import {createStore, applyMiddleware, compose} from 'redux';
 // import reduxThunk from 'redux-thunk';

@@ -12,7 +12,7 @@ class Header extends Component{
     render(){
         const links = [
             {path: '/', title: '首页'},
-            {path: '/ico', title: 'ICO'},
+            // {path: '/ico', title: 'ICO'},
         ]
         return(
 

@@ -10,9 +10,12 @@ import Consultant from './consultant'
 
 
 class Home extends Component{
+    componentDidMount() {
+        this.node.scrollIntoView();
+    }
     render(){
         return(
-            <section id="about-section" className="g-bg-secondary g-pos-rel">
+            <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
                 <Banner/>
                 <Technology/>
                 <Application/>
