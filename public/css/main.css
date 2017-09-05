@@ -279,10 +279,12 @@
     display: flex;
     justify-content:center;
     align-content: center;
+    /*position: relative;*/
+
 }
 .en-title
 {
-   margin-bottom: 3rem;
+   margin-bottom: 1.5rem;
 }
 .section-law
 {
@@ -302,6 +304,7 @@
 {
     margin-bottom: 0.3rem!important;
     font-size: 12px;
+    font-family: "Microsoft YaHei";
 }
 #lawbanner
 {

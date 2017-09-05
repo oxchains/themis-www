@@ -1,4 +1,5 @@
 import React,{ Component } from 'react';
+
 import Technology from './technology';
 import  Banner from './banner';
 import Application from './application';
@@ -13,10 +14,6 @@ class Home extends Component{
     componentDidMount() {
         this.node.scrollIntoView();
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 0952675a2b59abfa5a08cee9f8338445907d4b7f
     render(){
         return(
             <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
