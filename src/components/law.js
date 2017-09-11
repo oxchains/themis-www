@@ -11,7 +11,7 @@ class Law extends Component{
     }
     render(){
         return(
-            <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
+            <section id="about-section" className="g-bg-secondary g-pos-rel law-container" ref={node => this.node = node}>
                 <Lawbanner/>
                 <Article/>
             </section>

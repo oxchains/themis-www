@@ -5,13 +5,16 @@ import {Link} from "react-router-dom";
 class Header extends Component{
     constructor(props) {
         super(props);
-        this.state = { }
+        this.state = {}
+    }
 
-       this.renderrow = this.renderrow.bind(this)
+    componentDidMount() {
+        const $ = window.$;
+        // initialization of header
+        $.HSCore.components.HSHeader.init($('#js-header'));
+        $.HSCore.helpers.HSHamburgers.init('.hamburger');
     }
-    renderrow(){
-        location.reload()
-    }
+
     render(){
         return(
             <div id="js-header" className="u-header u-header--static u-header--show-hide u-header--change-appearance"
@@ -42,7 +45,7 @@ class Header extends Component{
                             <div className="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--sm" id="navBar">
                                 <ul id="js-scroll-nav" className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                                     <li className='nav-item g-mx-25--lg'>
-                                        <Link to="/" className='nav-link nl-nav-link g-px-0' onClick={this.renderrow}>
+                                        <Link to="/" className='nav-link nl-nav-link g-px-0'>
                                             首页
                                         </Link>
                                     </li>

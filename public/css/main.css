@@ -4,7 +4,7 @@
 /*header开始*/
 .u-header{
   /*position: absolute;*/
-    /*background-color: rgba(0,0,0,0.8);*/
+    background-color: black;
 }
 /*.header{*/
     /*position: absolute;*/
@@ -316,4 +316,7 @@
 #lawbanner
 {
     background-image: url('../../public/img/lawbg.jpg');
+}
+.law-container {
+    margin-top: 61px;
 }
