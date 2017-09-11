@@ -2,6 +2,8 @@ const path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
+var prod = process.env.NODE_ENV === 'production' ? true : false;
+
 module.exports = {
     entry: [
         './src/index.js'
@@ -9,7 +11,10 @@ module.exports = {
     output: {
         path: __dirname + '/dist',
         publicPath: '/',
-        filename: 'bundle.[chunkhash:8].js'
+        filename: 'bundle.[chunkhash:8].js',
+        // path: path.resolve(__dirname, prod ? "./dist" : "./dist"),
+        // filename: prod ? "bundle.[chunkhash:8].js" : "bundle.[chunkhash:8].js",
+        // publicPath: prod ? "https://static.oxchains.com/themis-www/" : "／"
     },
     module: {
         loaders: [{
