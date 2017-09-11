@@ -28,12 +28,7 @@
     "webpack-dev-server": "^2.7.1"
   },
   "scripts": {
-<<<<<<< HEAD
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-//    "deploy": "set NODE_ENV=production&&webpack -p --progress --colors"
-=======
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --host 0.0.0.0"
->>>>>>> 91d8d1dd31080e358941e7ff63f5f2dc9bb54659
   },
   "author": "",
   "license": "ISC"

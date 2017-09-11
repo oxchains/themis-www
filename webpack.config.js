@@ -2,8 +2,6 @@ const path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
-var prod = process.env.NODE_ENV === 'production' ? true : false;
-
 module.exports = {
     entry: [
         './src/index.js'
