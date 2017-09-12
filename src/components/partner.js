@@ -1,5 +1,4 @@
 import React,{ Component }from 'react';
-import {connect} from 'react-redux';
 
 class Partner extends Component{
     renderlist(item,index){

@@ -2,17 +2,15 @@ const path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
+var prod = process.env.NODE_ENV === 'production' ? true : false;
 module.exports = {
-    entry: [
-        './src/index.js'
+    entry : [
+        "./src/index.js"
     ],
     output: {
-        path: __dirname + '/dist',
-        publicPath: '/',
-        filename: 'bundle.[chunkhash:8].js',
-        // path: path.resolve(__dirname, prod ? "./dist" : "./dist"),
-        // filename: prod ? "bundle.[chunkhash:8].js" : "bundle.[chunkhash:8].js",
-        // publicPath: prod ? "https://static.oxchains.com/themis-www/" : "／"
+        path: path.resolve(__dirname,"./dist"),
+        filename: "bundle.[chunkhash:8].js",
+        publicPath: prod ? "https://static.oxchains.com/themis-www/" : ""
     },
     module: {
         loaders: [{
@@ -23,7 +21,7 @@ module.exports = {
             }
         },{
             test: /\.css$/,
-            loader: "style-loader!css-loader"
+            loader: "style-loader!css-loader",
         },{
             test: /\.html$/,
             loader: "html-loader"
@@ -46,6 +44,6 @@ module.exports = {
     devtool: 'source-map',
     devServer: {
         historyApiFallback: true,
-        contentBase: './'
+        contentBase: './',
     }
 };
