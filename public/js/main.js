@@ -1,5 +1,4 @@
 
-<!-- JS Plugins Init. -->
 $(window).on('load', function () {
     // 百度统计
     var _hmt = _hmt || [];

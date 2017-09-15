@@ -2,15 +2,12 @@ import React from 'react'
 import {Link} from "react-router-dom";
 import ReactDOM from 'react-dom';
 import {Route, BrowserRouter, Switch, Redirect} from 'react-router-dom';
-// import {Provider} from 'react-redux';
-// import {createStore, applyMiddleware, compose} from 'redux';
-// import reduxThunk from 'redux-thunk';
-// import reducers from './reducers';
 import Header from  './components/common/header';
 import Footer from './components/common/footer';
-import Home from './components/home'
-import Law from './components/law'
-
+import Home from './components/home';
+import Law from './components/law';
+import '../public/js/vendor/hamburgers/hamburgers.min.css'
+import './css/main.css';
 //
 // const createStoreWithMiddleware = compose(
 //     applyMiddleware(reduxThunk),
