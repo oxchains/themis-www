@@ -7,8 +7,9 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = Merge(common, {
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Custom template',
+            title: 'Themis：数字货币世界去中心化的"支付宝',
             template: 'index.ejs',
+            publicPath: './'
 
         }),
         new CopyWebpackPlugin([{

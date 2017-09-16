@@ -1,9 +1,9 @@
 const path = require('path');
-const webpack=require('webpack');
+const webpack = require('webpack');
 
-let prod = process.env.NODE_ENV === 'production' ? true : false;
+let prod = process.env.NODE_ENV === 'production';
 
-const static=[
+const static = [
     "./public/js/vendor/jquery/jquery.min.js",
     // "./public/js/vendor/jquery-migrate/jquery-migrate.min.js",
     "./public/js/vendor/jquery.easing/js/jquery.easing.js",
@@ -24,12 +24,12 @@ const static=[
 
 ]
 module.exports = {
-        // entry: [
-        //     "./src/index.js",
-        // ],
+    // entry: [
+    //     "./src/index.js",
+    // ],
     entry: {
         'vendor': static,
-        "bundle":"./src/index.js",
+        "bundle": "./src/index.js",
         "main": "./public/js/main.js",
     },
     output: {
@@ -39,27 +39,23 @@ module.exports = {
     },
     module: {
         loaders: [{
+            test: /\.js$/,
             exclude: /node_modules/,
             loader: 'babel-loader',
             query: {
                 presets: ['react', 'es2015', 'stage-1']
             }
-        }, {
-            test: /\.css$/,
-            loader: 'style-loader!css-loader',
         },
-        //     {
-        //         test: /\.html$/,
-        //         loader: 'html-loader'
-        // },
-            { test: /\.ejs$/, loader: "ejs-loader?variable=data" },
+            {test: /\.css$/, loader: 'style-loader!css-loader'},
+            // {test: /\.html$/, loader: 'html-loader'},
+            //{test: /\.ejs$/, loader: "ejs-loader?variable=data"},
             {
-            test: /\.(png|jpg|gif|jpeg)$/,
-            loader: 'url-loader?limit=8192&name=public/[hash:8].[name].[ext]',
-            options: {
-                publicPath:"/"
-            }
-        }]
+                test: /\.(png|jpg|gif|jpeg)$/,
+                loader: 'url-loader?limit=8192&name=public/[hash:8].[name].[ext]',
+                options: {
+                    publicPath: "/"
+                }
+            }]
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
@@ -70,4 +66,4 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx', '.css']
     }
-}
+};
