@@ -4,11 +4,11 @@ const webpack = require('webpack');
 let prod = process.env.NODE_ENV === 'production';
 
 const static = [
-    "./public/js/vendor/jquery/jquery.min.js",
+    // "./public/js/vendor/jquery/jquery.min.js",
     // "./public/js/vendor/jquery-migrate/jquery-migrate.min.js",
     "./public/js/vendor/jquery.easing/js/jquery.easing.js",
     // "./public/js/vendor/tether.min.js",
-    "./public/js/vendor/bootstrap/bootstrap.min.js",
+    // "./public/js/vendor/bootstrap/bootstrap.min.js",
     "./public/js/vendor/dzsparallaxer/dzsparallaxer.js",
     "./public/js/js/hs.core.js",
     "./public/js/js/components/hs.header.js",
@@ -46,17 +46,17 @@ module.exports = {
                 presets: ['react', 'es2015', 'stage-1']
             }
         },
-<<<<<<< HEAD
-            {
-                test: /\.html$/,
-                loader: 'html-loader'
-        },
+
+        //     {
+        //         test: /\.html$/,
+        //         loader: 'html-loader'
+        // },
         //     { test: /\.ejs$/, loader: "ejs-loader?variable=data" },
-=======
+
             {test: /\.css$/, loader: 'style-loader!css-loader'},
             // {test: /\.html$/, loader: 'html-loader'},
             //{test: /\.ejs$/, loader: "ejs-loader?variable=data"},
->>>>>>> 35891682cf5afc5b3c1f7610d595528220231d6f
+
             {
                 test: /\.(png|jpg|gif|jpeg)$/,
                 loader: 'url-loader?limit=8192&name=public/[hash:8].[name].[ext]',

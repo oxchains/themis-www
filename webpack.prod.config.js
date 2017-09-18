@@ -9,9 +9,10 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = Merge(common,{
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'index.html'),
+            template: path.join(__dirname, 'index.ejs'),
             filename: 'index.html',
             inject: 'body',
+            publicPath: 'https://static.oxchains.com/themis-www/',
             minify: {
                 removeComments: true,
                 collapseWhitespace: true,
