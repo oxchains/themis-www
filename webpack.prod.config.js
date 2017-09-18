@@ -3,16 +3,16 @@ const common = require('./webpack.common.config.js');
 const Merge = require('webpack-merge');
 const webpack=require('webpack');
 
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = Merge(common,{
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'index.ejs'),
+            publicPath: 'https://static.oxchains.com/themis-www/',
             filename: 'index.html',
             inject: 'body',
-            publicPath: 'https://static.oxchains.com/themis-www/',
             minify: {
                 removeComments: true,
                 collapseWhitespace: true,

@@ -1,15 +1,15 @@
 const path = require('path');
 const common = require('./webpack.common.config.js');
 const Merge = require('webpack-merge');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = Merge(common, {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Themis：数字货币世界去中心化的"支付宝',
             template: 'index.ejs',
-            publicPath: './'
+            publicPath: './',
 
         }),
         new CopyWebpackPlugin([{
