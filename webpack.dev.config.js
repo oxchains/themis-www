@@ -8,7 +8,7 @@ module.exports = Merge(common, {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Custom template',
-            template: 'index.ejs',
+            template: 'index.html',
 
         }),
         new CopyWebpackPlugin([{
