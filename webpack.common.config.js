@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 
 let prod = process.env.NODE_ENV === 'production';
-
 const static = [
     "./public/js/vendor/jquery/jquery.min.js",
     // "./public/js/vendor/jquery-migrate/jquery-migrate.min.js",
@@ -35,7 +34,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].[chunkhash:8].js",
-        publicPath: prod ? "https://static.oxchains.com/themis-www/" : ""
+        publicPath: prod ? "https://statinc.oxchains.com/themis-www/" : ""
     },
     module: {
         loaders: [{
@@ -45,25 +44,16 @@ module.exports = {
             query: {
                 presets: ['react', 'es2015', 'stage-1']
             }
-        },
-<<<<<<< HEAD
-            {
-                test: /\.html$/,
-                loader: 'html-loader'
-        },
-        //     { test: /\.ejs$/, loader: "ejs-loader?variable=data" },
-=======
-            {test: /\.css$/, loader: 'style-loader!css-loader'},
+        },{test: /\.css$/, loader: 'style-loader!css-loader'},
             // {test: /\.html$/, loader: 'html-loader'},
-            //{test: /\.ejs$/, loader: "ejs-loader?variable=data"},
->>>>>>> 35891682cf5afc5b3c1f7610d595528220231d6f
-            {
-                test: /\.(png|jpg|gif|jpeg)$/,
-                loader: 'url-loader?limit=8192&name=public/[hash:8].[name].[ext]',
-                options: {
-                    publicPath: "/"
-                }
-            }]
+            //{test: /\.ejs$/, loader: "ejs-loader?variable=data"}
+        {
+            test: /\.(png|jpg|gif|jpeg)$/,
+            loader: 'url-loader?limit=8192&name=public/[hash:8].[name].[ext]',
+            options: {
+                publicPath: "/"
+            }
+        }]
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
