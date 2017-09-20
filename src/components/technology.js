@@ -1,5 +1,6 @@
 import React,{ Component }from 'react';
 import {connect} from 'react-redux';
+import {ROOT_URL} from '../actions/types';
 
 class Technology extends Component{
     render(){
@@ -24,7 +25,7 @@ class Technology extends Component{
                             </div>
                             <div className="col-sm-6 col-lg-4  flex-sm-first g-mb-30">
                                 <div className="g-pos-rel text-center">
-                                    <img className='img-fluid' src="./public/img/technology1.png" alt=""/>
+                                    <img className='img-fluid' src={`${ROOT_URL}public/img/technology1.png`} alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +41,7 @@ class Technology extends Component{
                             </div>
                             <div className="col-sm-6 col-lg-4 g-mb-30">
                                 <div className="g-pos-rel text-center">
-                                    <img className='img-fluid' src="./public/img/technology2.png" alt=""/>
+                                    <img className='img-fluid' src={`${ROOT_URL}public/img/technology2.png`} alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -56,13 +57,12 @@ class Technology extends Component{
                             </div>
                             <div className="col-sm-6 col-lg-4 offset-lg-1 flex-sm-first g-mb-30">
                                 <div className="g-pos-rel text-center">
-                                    <img className='img-fluid' src="./public/img/technology3.png" alt=""/>
+                                    <img className='img-fluid' src={`${ROOT_URL}public/img/technology3.png`} alt=""/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
                 <div style={{background:'#fff'}}>
                     <div className="container g-pt-80">
@@ -73,7 +73,7 @@ class Technology extends Component{
                             </div>
                             <div className="col-sm-6 col-lg-4 g-mb-30">
                                 <div className="g-pos-rel text-center">
-                                    <img className='img-fluid' src="./public/img/technology5.png" alt=""/>
+                                    <img className='img-fluid' src={`${ROOT_URL}public/img/technology5.png`} alt=""/>
                                 </div>
                             </div>
                         </div>

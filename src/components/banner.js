@@ -1,4 +1,5 @@
 import React,{ Component }from 'react';
+import {ROOT_URL} from '../actions/types';
 
 class Banner extends Component{
     constructor(props) {
@@ -83,8 +84,8 @@ class Banner extends Component{
                     <div id="rev_slider_1014_1_wrapper" className="rev_slider_wrapper fullscreen-container" data-alias="typewriter-effect" data-source="gallery" style={{backgroundColor:'transparent',padding:'0px'}}>
                         <div id="rev_slider_1014_1" className="rev_slider fullscreenbanner"  data-version="5.4.1">
                             <ul>
-                                <li data-index="rs-2800" data-transition="curtain-1" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="./public/img/banner.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                    <img src="./public/img/banner.jpg" alt="" data-bgposition="center center" data-bgfit="cover" className="rev-slidebg"/>
+                                <li data-index="rs-2800" data-transition="curtain-1" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb={`${ROOT_URL}public/img/banner.jpg`} data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                    <img src={`${ROOT_URL}public/img/banner.jpg`} alt="" data-bgposition="center center" data-bgfit="cover" className="rev-slidebg"/>
                                     <div className="tp-caption tp-shape tp-shapewrapper "
                                          id="slide-2800-layer-7"
                                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"

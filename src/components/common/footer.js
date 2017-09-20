@@ -1,5 +1,6 @@
 import React,{ Component }from 'react';
 import {Link} from 'react-router-dom';
+import {ROOT_URL} from '../../actions/types';
 
 class Footer extends Component{
     render(){
@@ -11,7 +12,7 @@ class Footer extends Component{
 
                     <div className="container">
                         <a className="d-block g-width-200 g-opacity-0_5 mx-auto g-mb-20" href="index.html">
-                            <img className="img-fluid" src="public/img/nl_logo.png" alt="Logo"/>
+                            <img className="img-fluid" src={`${ROOT_URL}public/img/nl_logo.png`} alt="Logo"/>
                         </a>
 
                         {/*<ul className="list-inline g-mb-20">*/}
@@ -51,7 +52,7 @@ class Footer extends Component{
 
                             <div className="col-sm-12 col-lg g-mb-0--lg">
                                 <h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20 ">
-                                    <img className="img-fluid g-width-120 g-height-120  " src="public/img/wechat.jpeg" alt=""/>
+                                    <img className="img-fluid g-width-120 g-height-120  " src={`${ROOT_URL}public/img/wechat.jpeg`} alt=""/>
                                 </h2>
                                 <ul className="list-unstyled mb-0">
                                     <li className="g-mb-8">

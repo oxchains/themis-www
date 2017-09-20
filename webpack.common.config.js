@@ -1,6 +1,5 @@
 const path = require('path');
 const webpack = require('webpack');
-
 let prod = process.env.NODE_ENV === 'production';
 const static = [
     "./public/js/vendor/jquery.easing/js/jquery.easing.js",
@@ -44,10 +43,7 @@ module.exports = {
             //{test: /\.ejs$/, loader: "ejs-loader?variable=data"}
         {
             test: /\.(png|jpg|gif|jpeg)$/,
-            loader: 'url-loader?limit=8192&name=public/[hash:8].[name].[ext]',
-            options: {
-                publicPath: "/"
-            }
+            loader: 'url-loader',
         }]
     },
     plugins: [

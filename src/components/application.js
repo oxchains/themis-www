@@ -1,4 +1,5 @@
 import React,{ Component }from 'react';
+import {ROOT_URL} from '../actions/types';
 class Application extends Component{
     renderrow(item,index){
         return (
@@ -20,9 +21,9 @@ class Application extends Component{
     }
     render(){
         const listinfo = [
-            {src:"./public/img/application2.gif",title:"数字货币交易兑换",p1:"Themis支持实现数字货币的场外交易，能够为比特币、以太币以及其它基于区块链的密码学数字货币提供安全托管服务，满足不同数字货币间交易兑换需求，为数字货币跨链交易提供公平交换保障；"},
-            {src:"./public/img/application3.gif",title:"监管账户安全托管",p1:"Themis能够为数字货币资金监管账户提供去中心化的托管服务，可实现对数字货币私募基金监管账户、数字货币借贷监管账户、数字货币交易所账户等进行安全托管，保障资金合规与安全。"},
-            {src:"./public/img/application4.gif",title:"多主体交易资产托管",p1:"针对交易主体多、交易环节长、交易依赖性强的应用场景，Themis将多主体交易中需要托管的资金，诸如订金、首款、佣金、尾款等以数字货币的形式托管在原有链上，建立基于多主体职责和权益触发条件指令的智能合约，并利用仲裁机制达成公平交换。" },
+            {src:`${ROOT_URL}public/img/application2.gif`,title:"数字货币交易兑换",p1:"Themis支持实现数字货币的场外交易，能够为比特币、以太币以及其它基于区块链的密码学数字货币提供安全托管服务，满足不同数字货币间交易兑换需求，为数字货币跨链交易提供公平交换保障；"},
+            {src:`${ROOT_URL}public/img/application3.gif`,title:"监管账户安全托管",p1:"Themis能够为数字货币资金监管账户提供去中心化的托管服务，可实现对数字货币私募基金监管账户、数字货币借贷监管账户、数字货币交易所账户等进行安全托管，保障资金合规与安全。"},
+            {src:`${ROOT_URL}public/img/application4.gif`,title:"多主体交易资产托管",p1:"针对交易主体多、交易环节长、交易依赖性强的应用场景，Themis将多主体交易中需要托管的资金，诸如订金、首款、佣金、尾款等以数字货币的形式托管在原有链上，建立基于多主体职责和权益触发条件指令的智能合约，并利用仲裁机制达成公平交换。" },
         ]
         return(
             <section id="application" className="g-pt-50">
@@ -38,7 +39,7 @@ class Application extends Component{
                         <div className="col-sm-6 col-lg-3 application-item">
                             <article className="u-block-hover">
                                 <figure className="g-overflow-hidden">
-                                    <img className="img-fluid u-block-hover__main--zoom-v1" src="./public/img/application1.gif" alt=""/>
+                                    <img className="img-fluid u-block-hover__main--zoom-v1" src={`${ROOT_URL}public/img/application1.gif`} alt=""/>
                                 </figure>
                                 <div className=" g-pa-30">
                                     <h3 className="text-uppercase g-font-weight-700 g-font-size-14 text-center" >点对点托管支付</h3>
