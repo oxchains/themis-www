@@ -1,6 +1,23 @@
 import React,{ Component }from 'react';
 
 class Partner extends Component{
+    componentDidMount() {
+        const $ = window.$;
+        $('.dzsparallaxer---window-height').each(function(){
+            var _t = $(this);
+            //return false;
+
+            $(window).on('resize',handle_resize);
+            handle_resize();
+
+            function handle_resize(){
+                var wh = window.innerHeight;
+
+                _t.height(wh);
+            }
+        })
+        dzsprx_init('.dzsparallaxer.auto-init', {init_each: true});
+    }
     renderlist(item,index){
         return (
             <div className="col-lg-4 g-px-40 g-mb-50 g-mb-0--lg" key={index}>
