@@ -1,12 +1,6 @@
 /**
  * Created by oxchain on 2017/9/4.
  */
-
-
-
-/**
- * Created by oxchain on 2017/9/4.
- */
 import React,{ Component } from 'react';
 
 class Lawbanner extends Component{
@@ -36,6 +30,3 @@ class Lawbanner extends Component{
     }
 }
 export default  Lawbanner;
-
-
-

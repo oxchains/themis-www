@@ -30,7 +30,7 @@ class Circuit extends Component{
             {time: '2017.12',info:"完成Themis区块链设计，完成基于群托管协议和匿名声誉机制开发"},
             {time: '2018.06',info:"Themis 1.0上线，完成Themis钱包1.0开发，支持场外数字货币交易兑换和点对点托管支付"},
             {time: '2018.12',info:"Themis 2.0上线，提升Themis性能，支持高并发验签的数字签名，完成Themis钱包2.0开发"},
-          ]
+        ]
         return(
             <section id="circuit" className="g-py-50">
                 <div className="container text-center g-max-width-75 " style={{textAlign:'center'}}>

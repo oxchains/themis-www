@@ -9,8 +9,9 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = Merge(common,{
     plugins: [
         new HtmlWebpackPlugin({
+            title: 'Themis：数字货币世界去中心化的"支付宝',
             template: path.join(__dirname, 'index.ejs'),
-            publicPath: 'https://static.oxchains.com/themis-www/',
+            publicPath: 'https://static-cdn.oxchains.com/themis-www/',
             filename: 'index.html',
             inject: 'body',
             minify: {
@@ -21,9 +22,6 @@ module.exports = Merge(common,{
             chunksSortMode: 'dependency'
         }),
         new CopyWebpackPlugin([{
-            from: './public/css',
-            to: 'public/css',
-        },{
             from: './public/img',
             to: 'public/img',
         }

@@ -21,8 +21,8 @@ class Header extends Component{
                  data-header-fix-moment="500"
                  data-header-fix-effect="slide">
                 <div
-                     data-header-fix-moment-exclude="g-bg-white g-py-15"
-                     data-header-fix-moment-classes="g-bg-white-opacity-0_8 u-shadow-v18 g-py-5">
+                    data-header-fix-moment-exclude="g-bg-white g-py-15"
+                    data-header-fix-moment-classes="g-bg-white-opacity-0_8 u-shadow-v18 g-py-5">
                     <nav className="navbar navbar-toggleable-md">
                         <div className="container">
                             <button className="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-right-0" type="button"
@@ -50,9 +50,9 @@ class Header extends Component{
                                         </Link>
                                     </li>
                                     {/*<li className='nav-item g-mx-25--lg'>*/}
-                                        {/*<Link  to="/ico" className='nav-link nl-nav-link g-px-0' >*/}
-                                            {/*ICO*/}
-                                        {/*</Link>*/}
+                                    {/*<Link  to="/ico" className='nav-link nl-nav-link g-px-0' >*/}
+                                    {/*ICO*/}
+                                    {/*</Link>*/}
                                     {/*</li>*/}
 
                                     <li className='nav-item g-mx-25--lg'>
@@ -67,8 +67,8 @@ class Header extends Component{
                                     </li>
 
                                     <li className="nav-item g-ml-25--lg g-mr-0--lg">
-                                        <a href="https://downloads.oxchains.com/themis/Themis-Whitepaper-CH-v1.0.1.pdf" target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>
-                                             白皮书
+                                        <a href="javascript:;" target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>
+                                            白皮书
                                         </a>
                                     </li>
                                 </ul>

@@ -5,45 +5,45 @@ class Footer extends Component{
     render(){
         return(
 
-        <div className="shortcode-html nl-footer">
+            <div className="shortcode-html nl-footer">
 
-            <footer className="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 text-center g-pt-40 g-pb-20">
+                <footer className="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 text-center g-pt-40 g-pb-20">
 
-                <div className="container">
-                    <a className="d-block g-width-200 g-opacity-0_5 mx-auto g-mb-20" href="index.html">
-                        <img className="img-fluid" src="public/img/nl_logo.png" alt="Logo"/>
-                    </a>
+                    <div className="container">
+                        <a className="d-block g-width-200 g-opacity-0_5 mx-auto g-mb-20" href="index.html">
+                            <img className="img-fluid" src="public/img/nl_logo.png" alt="Logo"/>
+                        </a>
 
-                    {/*<ul className="list-inline g-mb-20">*/}
+                        {/*<ul className="list-inline g-mb-20">*/}
                         {/*<li className="list-inline-item g-mx-5">*/}
-                            {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
-                                {/*<i className="fa fa-twitter"></i>*/}
-                            {/*</a>*/}
+                        {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
+                        {/*<i className="fa fa-twitter"></i>*/}
+                        {/*</a>*/}
                         {/*</li>*/}
                         {/*<li className="list-inline-item g-mx-5">*/}
-                            {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
-                                {/*<i className="fa fa-pinterest-p"></i>*/}
-                            {/*</a>*/}
+                        {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
+                        {/*<i className="fa fa-pinterest-p"></i>*/}
+                        {/*</a>*/}
                         {/*</li>*/}
                         {/*<li className="list-inline-item g-mx-5">*/}
-                            {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
-                                {/*<i className="fa fa-facebook"></i>*/}
-                            {/*</a>*/}
+                        {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
+                        {/*<i className="fa fa-facebook"></i>*/}
+                        {/*</a>*/}
                         {/*</li>*/}
                         {/*<li className="list-inline-item g-mx-5">*/}
-                            {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
-                                {/*<i className="fa fa-linkedin"></i>*/}
-                            {/*</a>*/}
+                        {/*<a className="u-icon-v2 u-icon-size--sm g-font-size-16 g-color-white-opacity-0_8 g-color-white--hover g-bg-primary--hover g-brd-white-opacity-0_2 g-brd-primary--hover rounded-circle" href="#">*/}
+                        {/*<i className="fa fa-linkedin"></i>*/}
+                        {/*</a>*/}
                         {/*</li>*/}
-                    {/*</ul>*/}
+                        {/*</ul>*/}
 
-                    <div className="g-width-70x--md mx-auto">
-                        <p className="mb-0">From de-centralized digital currency to de-centralized digital commerce.</p>
+                        <div className="g-width-70x--md mx-auto">
+                            <p className="mb-0">From de-centralized digital currency to de-centralized digital commerce.</p>
+                        </div>
                     </div>
-                </div>
 
 
-                <hr className="footer-line g-my-20"/>
+                    <hr className="footer-line g-my-20"/>
 
 
                     <div className="container">
@@ -66,61 +66,61 @@ class Footer extends Component{
 
 
                             {/*<div className="col-sm-6 col-lg g-mb-30 g-mb-0--lg">*/}
-                                {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Customer Support</h2>*/}
-                                {/*<ul className="list-unstyled mb-0">*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Vivamus egestas sapien</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Sed convallis nec enim</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Pellentesque a tristique risus</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li>*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Nunc vitae libero lacus</a>*/}
-                                    {/*</li>*/}
-                                {/*</ul>*/}
+                            {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Customer Support</h2>*/}
+                            {/*<ul className="list-unstyled mb-0">*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Vivamus egestas sapien</a>*/}
+                            {/*</li>*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Sed convallis nec enim</a>*/}
+                            {/*</li>*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Pellentesque a tristique risus</a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Nunc vitae libero lacus</a>*/}
+                            {/*</li>*/}
+                            {/*</ul>*/}
                             {/*</div>*/}
 
 
 
                             {/*<div className="col-sm-6 col-lg">*/}
-                                {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Top Link</h2>*/}
-                                {/*<ul className="list-unstyled mb-0">*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Pellentesque a tristique risus</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Nunc vitae libero lacus</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li>*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
-                                    {/*</li>*/}
-                                {/*</ul>*/}
+                            {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Top Link</h2>*/}
+                            {/*<ul className="list-unstyled mb-0">*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Pellentesque a tristique risus</a>*/}
+                            {/*</li>*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Nunc vitae libero lacus</a>*/}
+                            {/*</li>*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
+                            {/*</li>*/}
+                            {/*</ul>*/}
                             {/*</div>*/}
 
 
 
                             {/*<div className="col-sm-6 col-lg">*/}
-                                {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Useful Links</h2>*/}
-                                {/*<ul className="list-unstyled mb-0">*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li className="g-mb-8">*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li>*/}
-                                        {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
-                                    {/*</li>*/}
-                                {/*</ul>*/}
+                            {/*<h2 className="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20">Useful Links</h2>*/}
+                            {/*<ul className="list-unstyled mb-0">*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
+                            {/*</li>*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
+                            {/*</li>*/}
+                            {/*<li className="g-mb-8">*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Praesent pulvinar gravida</a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*<a className="g-color-white-opacity-0_8" href="#">Integer commodo est</a>*/}
+                            {/*</li>*/}
+                            {/*</ul>*/}
                             {/*</div>*/}
 
                         </div>
@@ -128,25 +128,21 @@ class Footer extends Component{
 
 
                     <hr className="footer-line g-my-20"/>
-                <div className="container">
-                    <small className="g-font-size-default">
-                        <Link className="g-color-white" to="/law">法律条款和声明</Link></small>
-                </div>
+                    <div className="container">
+                        <small className="g-font-size-default">
+                            <Link className="g-color-white" to="/law">法律条款和声明</Link></small>
+                    </div>
 
-                        {/*<div className="container">*/}
-                            {/*<small className="copyright">2017 © All Rights Reserved.京ICP备16063652号</small>*/}
-                        {/*</div>*/}
+                    {/*<div className="container">*/}
+                    {/*<small className="copyright">2017 © All Rights Reserved.京ICP备16063652号</small>*/}
+                    {/*</div>*/}
 
-            </footer>
+                </footer>
 
-        </div>
+            </div>
 
 
-    )
+        )
     }
 }
 export default  Footer;
-
-
-
-

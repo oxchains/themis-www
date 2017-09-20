@@ -21,7 +21,6 @@ class Partner extends Component{
             {href:"https://www.wanchain.org/",src:"./public/img/partner2.png",p:"万维链是为不同区块链网络提供资产跨链转移通道的基础设施，可以与Themis 区块链互联互通，在数字货币借贷、数字货币交易兑换、数字资产投融资等方面发挥各自优势紧密合作，丰富区块链生态。"},
             {href:"http://oraclechain.io/",src:"./public/img/partner3.png",p:"Oracle是仲裁服务中讨论和审阅交易双方提供的材料时所需要的机制。OracleChain在区块链内提供现实世界数据的 Oracle 服务，其生态系统提供一系列的服务和 API，Themis通过调用这些服务和API将现实世界数据引入区块链，来决定仲裁的结果并实现其后的操作。" },
         ]
-
         return(
             <section id="streamer" className="dzsparallaxer auto-init height-is-based-on-content use-loading g-bg-cover ">
                 <div className="divimage dzsparallaxer--target w-100" style={{height: '140%', background: 'url(./public/img/partnerbg.gif) center' }}></div>
@@ -41,7 +40,6 @@ class Partner extends Component{
                     </div>
                 </div>
             </section>
-
         )
     }
 }

@@ -3,17 +3,12 @@ const webpack = require('webpack');
 
 let prod = process.env.NODE_ENV === 'production';
 const static = [
-    // "./public/js/vendor/jquery/jquery.min.js",
-    // "./public/js/vendor/jquery-migrate/jquery-migrate.min.js",
     "./public/js/vendor/jquery.easing/js/jquery.easing.js",
-    // "./public/js/vendor/tether.min.js",
-    // "./public/js/vendor/bootstrap/bootstrap.min.js",
     "./public/js/vendor/dzsparallaxer/dzsparallaxer.js",
     "./public/js/js/hs.core.js",
     "./public/js/js/components/hs.header.js",
     "./public/js/js/helpers/hs.hamburgers.js",
     "./public/js/js/components/hs.scroll-nav.js",
-    // "./public/js/vendor/revolution-slider/revolution/js/jquery.themepunch.tools.min.js",
     "./public/js/vendor/revolution-slider/revolution/js/jquery.themepunch.revolution.min.js",
     "./public/js/vendor/revolution-slider/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js",
     "./public/js/vendor/revolution-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js",
@@ -34,7 +29,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].[chunkhash:8].js",
-        publicPath: prod ? "https://statinc.oxchains.com/themis-www/" : ""
+        publicPath: prod ? "https://static-cdn.oxchains.com/themis-www/" : ""
     },
     module: {
         loaders: [{

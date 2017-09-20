@@ -271,7 +271,7 @@ class Banner extends Component{
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[50,50,50,50]"
                                          style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
-                                        <a className="ahover"  href="https://downloads.oxchains.com/themis/Themis-Whitepaper-CH-v1.0.1.pdf">白皮书</a>
+                                        <a className="ahover"  href="javascript:;">白皮书</a>
                                     </div>
                                 </li>
                             </ul>
