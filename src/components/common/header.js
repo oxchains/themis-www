@@ -70,6 +70,11 @@ class Header extends Component{
                                             白皮书
                                         </a>
                                     </li>
+                                    <li className='nav-item g-mx-25--lg'>
+                                        <a href="https://themis.network/" className='nav-link nl-nav-link g-px-0' >
+                                            英文版
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
 
