@@ -68,11 +68,11 @@ class Ourteams extends Component {
                 name: '关志',
                 info: "北京大学理学博士，北京大学副研究员，密码学和安全协议专家，著名国密算法开源项目GmSSL的主要开发者和社区领袖，培养了北大最早的三名区块链方向硕士研究生。负责Themis钱包和相关密码学增强算法的设计和实现。"
             },
-            {
-                src: `${ROOT_URL}public/img/xinwei.jpg`,
-                name: '辛伟',
-                info: "北京大学理学博士，中国信息安全测评中心高级工程师。专注安全漏洞检测和密码算法安全性分析，有丰富的区块链自动化漏洞检测经验。负责Themis系统和其智能合约安全漏洞检测。"
-            },
+            // {
+            //     src: `${ROOT_URL}public/img/xinwei.jpg`,
+            //     name: '辛伟',
+            //     info: "北京大学理学博士，中国信息安全测评中心高级工程师。专注安全漏洞检测和密码算法安全性分析，有丰富的区块链自动化漏洞检测经验。负责Themis系统和其智能合约安全漏洞检测。"
+            // },
             {
                 src: `${ROOT_URL}public/img/wangliyan.png`,
                 name: '王李琰',
