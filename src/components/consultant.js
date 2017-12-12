@@ -19,7 +19,6 @@ class Consultant extends Component{
     }
     render(){
         const consultantlist = [
-            {src:`${ROOT_URL}public/img/bill.png`,name:"Bill Roscoe",info:"牛津大学教授，Bill教授是原牛津大学数学部研究委员会主席，原牛津大学计算机系主任。英国皇家工程院院士，欧洲科学院院士，牛津大学信息安全委员会主席，计算机科学委员会主席。世界著名计算机科学家，牛津大学元老级（任职超过40年）科学家。"},
             {src:`${ROOT_URL}public/img/DonaldLawrence.jpg`,name:"Donald Lawrence",info:"伦敦大学学院客座教授，战略咨询公司创世纪公司合伙人，伦敦大学学院教授，区块链技术中心项目负责，金融计算研究中心项目负责，阿兰图灵大数据研究中心项目负责，曾在花旗集团、美国银行和美国运通等均担任过总经理以上级别职位，在UCL期间，负责对接与央行，投行，对冲基金，清算中心和科技企业的项目研究和开发等。"},
             {src:`${ROOT_URL}public/img/DanieleBernardi.jpg`,name:"Daniele Bernardi",info:"Diaman SCF的创办人兼首席执行官，投资者杂志（INVESTORS’ Magazine Italia）主席。致力于开发高回报的投资战略，是一位不断寻求创新的企业家。他的研究面向数学模型的开发，简化了投资者和家族企业的决策过程，以减少风险。"},
             {src:`${ROOT_URL}public/img/RobertFerguson.jpg`,name:"Robert Ferguson",info:"贝恩公司顾问/Bee-One销售总监 Robert Ferguson是Bee-One在英国的销售总监，他在零售和消费品销售方面拥有丰富的经验。 他是贝恩公司的顾问，他负责推动分类管理、商业优势、采购战略和制造网络优化等项目的分析和决策者管理。Robert拥有丰富的项目管理经验，其中包括设计和领导研讨会以推动决策,的制定。他还具有开发新一代数字化转型经验。通过印度，香港和中国的项目，他致力于寻找新兴市场的机遇与挑战。"},
