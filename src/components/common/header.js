@@ -71,8 +71,8 @@ class Header extends Component{
                                         </a>
                                     </li>
                                     <li className='nav-item g-mx-25--lg'>
-                                        <a href="https://themis.network/" className='nav-link nl-nav-link g-px-0' >
-                                            英文版
+                                        <a href="https://themis.network/en" className='nav-link nl-nav-link g-px-0' >
+                                            EN
                                         </a>
                                     </li>
                                 </ul>
