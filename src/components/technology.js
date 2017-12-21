@@ -1,5 +1,4 @@
 import React,{ Component }from 'react';
-import {connect} from 'react-redux';
 import {ROOT_URL} from '../actions/types';
 import {getLocalValue} from './common/language';
 class Technology extends Component{

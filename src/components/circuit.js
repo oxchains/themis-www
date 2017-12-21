@@ -1,6 +1,8 @@
+
 import React,{ Component }from 'react';
 import {connect} from 'react-redux';
 import {getLocalValue} from './common/language';
+
 class Circuit extends Component{
 
     renderrow(src,index){

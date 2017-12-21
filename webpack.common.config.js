@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 let prod = process.env.NODE_ENV === 'production';
+
 const static = [
     "./public/js/vendor/jquery.easing/js/jquery.easing.js",
     "./public/js/vendor/dzsparallaxer/dzsparallaxer.js",
@@ -14,12 +15,8 @@ const static = [
     "./public/js/vendor/revolution-slider/revolution/js/extensions/revolution.extension.navigation.min.js",
     "./public/js/vendor/revolution-slider/revolution/js/extensions/revolution.extension.parallax.min.js",
     "./public/js/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js"
-
 ]
 module.exports = {
-    // entry: [
-    //     "./src/index.js",
-    // ],
     entry: {
         'vendor': static,
         "bundle": "./src/index.js",
@@ -38,7 +35,8 @@ module.exports = {
             query: {
                 presets: ['react', 'es2015', 'stage-1']
             }
-        },{test: /\.css$/, loader: 'style-loader!css-loader'},
+        },{test: /\.css$/,
+            loader: 'style-loader!css-loader'},
             // {test: /\.html$/, loader: 'html-loader'},
             //{test: /\.ejs$/, loader: "ejs-loader?variable=data"}
         {

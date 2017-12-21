@@ -6,16 +6,13 @@ import { Menu, Dropdown, Button } from 'antd';
 class Banner extends Component{
     constructor(props) {
         super(props);
-        this.state = {
-            current: '',
-            // show: false
-        };
+        this.state = {current: '', show: false};
     }
-    // handleChange(){
-    //     this.setState({
-    //         show:!this.state.show
-    //     })
-    // }
+    handleChange(){
+        this.setState({
+            show:!this.state.show
+        })
+    }
     componentDidMount() {
         const $ = window.$;
         // $.HSCore.components.HSHeader.init($('#js-header'));
@@ -89,19 +86,6 @@ class Banner extends Component{
     }
 
     render(){
-        // const menu = (
-        //     <Menu>
-        //         <Menu.Item>
-        //             <a  href="javascript:;">WHITE PAPER</a>
-        //         </Menu.Item>
-        //         <Menu.Item>
-        //             <a   href="javascript:;">白書</a>
-        //         </Menu.Item>
-        //         <Menu.Item>
-        //             <a  href="javascript:;">백서</a>
-        //         </Menu.Item>
-        //     </Menu>
-        // );
         return(
             <div>
                 <div className="g-overflow-hidden banner">
@@ -251,44 +235,49 @@ class Banner extends Component{
                                         {getLocalValue("about_answer1")}<br/>{getLocalValue("about_answer2")}
                                         {getLocalValue("about_answer3")}<br/>{getLocalValue("about_answer4")}
                                     </div>
-                                    <div className="banner-btn  divfontcolor tp-caption rev-btn  tp-resizeme rs-parallaxlevel-4"
+
+
+                                    {/*<div className="banner-btn tp-caption rev-btn  tp-resizeme rs-parallaxlevel-4"*/}
+                                    {/*id="slide-2800-layer-4"*/}
+                                    {/*data-x="['right','right','center','center']" data-hoffset="['630','525','-105','100']"*/}
+                                    {/*data-y="['middle','middle','middle','middle']" data-voffset="['240','240','240','240']"*/}
+                                    {/*data-width="none"*/}
+                                    {/*data-height="none"*/}
+                                    {/*data-whitespace="nowrap"*/}
+                                    {/*data-lineheight="[40,40,60,60]"*/}
+                                    {/*data-type="button"*/}
+                                    {/*data-responsive_offset="on"*/}
+
+                                    {/*data-frames='[{"from":"x:-50px;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'*/}
+                                    {/*data-textAlign="['left','left','left','left']"*/}
+                                    {/*data-paddingtop="[0,0,0,0]"*/}
+                                    {/*data-paddingright="[50,50,50,50]"*/}
+                                    {/*data-paddingbottom="[0,0,0,0]"*/}
+                                    {/*data-paddingleft="[50,50,50,50]"*/}
+                                    {/*style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px', borderRadius:'5px',outline:'none',boxShadow:'1px 1px 1px yellow',boxSizing:'border-box',cursor:'pointer'}}> I C O*/}
+                                    {/*</div>*/}
+
+                                    <div className="select-design divfontcolor tp-caption  tp-resizeme rs-parallaxlevel-4" onClick={this.handleChange.bind(this)}
                                          href="#portfolio-section" target="_self" id="slide-2800-layer-5"
                                          data-x="['left','left','center','center']"
-                                        // data-hoffset="['630','525','105','100']"
-                                         data-hoffset="['555','450','0','0']"
-                                         data-y="['middle','middle','middle','middle']" data-voffset="['240','240','240','240']"
+                                         // data-hoffset="['630','525','105','100']"
+                                         data-hoffset="['550','400','0','0']"
+                                         data-y="['middle','middle','middle','middle']" data-voffset="['200','200','200','200']"
                                          data-width="none"
                                          data-height="none"
                                          data-whitespace="nowrap"
 
-                                         data-type="button"
-                                         data-lineheight="[40,40,60,60]"
                                          data-responsive_offset="on"
-
                                          data-frames='[{"from":"x:50px;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                                          data-textAlign="['left','left','left','left']"
                                          data-paddingtop="[0,0,0,0]"
-                                         data-paddingright="[50,50,50,50]"
                                          data-paddingbottom="[0,0,0,0]"
-                                         data-paddingleft="[50,50,50,50]"
                                          style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
-                                        <a className="ahover"  href={getLocalValue("nav_whitepaper_url")}>{getLocalValue("nav_Whitepaper")}</a>
-
-                                        {/*<div className="g-mt-20">*/}
-                                            {/*<div className="select-design" onClick={this.handleChange.bind(this)} >*/}
-                                                {/*<span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>*/}
-                                                {/*<span className={this.state.show ? "hover" : "hidden"}>WHITE PAPER</span>*/}
-                                                {/*<span className={this.state.show ? "hover" : "hidden"}>白書</span>*/}
-                                                {/*<span className={this.state.show ? "hover" : "hidden"}>백서</span>*/}
-                                            {/*</div>*/}
-                                        {/*</div>*/}
-                                        {/*<Dropdown overlay={menu} placement="bottomCenter">*/}
-                                            {/*<Button>*/}
-                                                {/*<span>{getLocalValue("nav_Whitepaper")}</span>*/}
-                                            {/*</Button>*/}
-                                        {/*</Dropdown>*/}
-
-
+                                            <span className="g-color-white">白皮书<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
+                                            <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url")}>{getLocalValue("nav_Whitepaper")}</a></span>
+                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
+                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
+                                            <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_KR.pdf">백서</a></span>
                                     </div>
                                 </li>
                             </ul>
