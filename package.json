@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "antd": "^3.0.2",
     "babel-preset-stage-1": "^6.24.1",
     "mockjs": "^1.0.1-beta3",
     "react": "^15.6.1",

@@ -1,14 +1,25 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../actions/types';
 import {getLocalValue} from './common/language';
+
+import { Menu, Dropdown, Button } from 'antd';
 class Banner extends Component{
     constructor(props) {
         super(props);
-        this.state = {current: ''};
+        this.state = {
+            current: '',
+            // show: false
+        };
     }
-
+    // handleChange(){
+    //     this.setState({
+    //         show:!this.state.show
+    //     })
+    // }
     componentDidMount() {
         const $ = window.$;
+        // $.HSCore.components.HSHeader.init($('#js-header'));
+
         let revapi1014 = $("#rev_slider_1014_1").show().revolution({
             sliderType: "standard",
             jsFileLocation: "revolution/js/",
@@ -78,6 +89,19 @@ class Banner extends Component{
     }
 
     render(){
+        // const menu = (
+        //     <Menu>
+        //         <Menu.Item>
+        //             <a  href="javascript:;">WHITE PAPER</a>
+        //         </Menu.Item>
+        //         <Menu.Item>
+        //             <a   href="javascript:;">白書</a>
+        //         </Menu.Item>
+        //         <Menu.Item>
+        //             <a  href="javascript:;">백서</a>
+        //         </Menu.Item>
+        //     </Menu>
+        // );
         return(
             <div>
                 <div className="g-overflow-hidden banner">
@@ -131,7 +155,7 @@ class Banner extends Component{
 
                                          style={{zIndex: '6',whiteSpace: 'nowrap',color: 'rgba(255, 255, 255, 1.00)'}}>
                                         <i className="hidden-sm-down g-font-size-20 g-pos-rel g-top-minus-5 mr-2 icon-media-119 u-line-icon-pro"></i>
-                                        Themis：数字货币世界去中心化的 <span className="nl-main">"支付宝"</span>
+                                        {getLocalValue("about_title")} <span className="nl-main">{getLocalValue("about_title2")}</span>
                                         <i className="hidden-sm-down g-font-size-20 g-pos-rel g-top-minus-5 ml-2 icon-media-119 u-line-icon-pro"></i>
                                     </div>
                                     <div className="tp-caption banner-title2  tp-resizeme rs-parallaxlevel-4"
@@ -154,7 +178,7 @@ class Banner extends Component{
                                          data-paddingleft="[0,0,0,0]"
 
                                          style={{zIndex: '8',whiteSpace: 'nowrap',fontWeight: '400',color: 'rgba(255, 255, 255, 1.00)',borderWidth:'0px'}}>
-                                        从去中心化的数字货币到去中心化的数字商业
+                                        {getLocalValue("about_know")}
                                     </div>
 
                                     <div className="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-4"
@@ -200,7 +224,7 @@ class Banner extends Component{
                                          data-paddingleft="[0,0,0,0]"
 
                                          style={{zIndex: '8',whiteSpace: 'nowrap',fontWeight: '400',color: '#fbd42e',borderWidth:'0px'}}>
-                                        THEMIS是什么？
+                                        {getLocalValue("about_what")}
                                     </div>
 
                                     <div className="tp-caption banner-titile3  tp-resizeme rs-parallaxlevel-4"
@@ -224,33 +248,9 @@ class Banner extends Component{
 
                                          style={{zIndex: '8',whiteSpace: 'nowrap',fontWeight: '400',color: 'rgba(255, 255, 255, 1.00)',borderWidth:'0px',fontSize:'12px'}}>
 
-                                        Themis是一个基于区块链的公平交换系统，<br/>提供去中心化的数字货币托管服务，
-                                        解决以数字货币为媒介的公平交换问题，<br/>可应用于数字货币点对点托管支付、数字货币场外交易兑换等。
+                                        {getLocalValue("about_answer1")}<br/>{getLocalValue("about_answer2")}
+                                        {getLocalValue("about_answer3")}<br/>{getLocalValue("about_answer4")}
                                     </div>
-
-
-
-                                    {/*<div className="banner-btn tp-caption rev-btn  tp-resizeme rs-parallaxlevel-4"*/}
-                                    {/*id="slide-2800-layer-4"*/}
-                                    {/*data-x="['right','right','center','center']" data-hoffset="['630','525','-105','100']"*/}
-                                    {/*data-y="['middle','middle','middle','middle']" data-voffset="['240','240','240','240']"*/}
-                                    {/*data-width="none"*/}
-                                    {/*data-height="none"*/}
-                                    {/*data-whitespace="nowrap"*/}
-                                    {/*data-lineheight="[40,40,60,60]"*/}
-                                    {/*data-type="button"*/}
-                                    {/*data-responsive_offset="on"*/}
-
-                                    {/*data-frames='[{"from":"x:-50px;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'*/}
-                                    {/*data-textAlign="['left','left','left','left']"*/}
-                                    {/*data-paddingtop="[0,0,0,0]"*/}
-                                    {/*data-paddingright="[50,50,50,50]"*/}
-                                    {/*data-paddingbottom="[0,0,0,0]"*/}
-                                    {/*data-paddingleft="[50,50,50,50]"*/}
-                                    {/*style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px', borderRadius:'5px',outline:'none',boxShadow:'1px 1px 1px yellow',boxSizing:'border-box',cursor:'pointer'}}> I C O*/}
-                                    {/*</div>*/}
-
-
                                     <div className="banner-btn  divfontcolor tp-caption rev-btn  tp-resizeme rs-parallaxlevel-4"
                                          href="#portfolio-section" target="_self" id="slide-2800-layer-5"
                                          data-x="['left','left','center','center']"
@@ -272,7 +272,23 @@ class Banner extends Component{
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[50,50,50,50]"
                                          style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
-                                        <a className="ahover"  href="javascript:;">白皮书</a>
+                                        <a className="ahover"  href={getLocalValue("nav_whitepaper_url")}>{getLocalValue("nav_Whitepaper")}</a>
+
+                                        {/*<div className="g-mt-20">*/}
+                                            {/*<div className="select-design" onClick={this.handleChange.bind(this)} >*/}
+                                                {/*<span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>*/}
+                                                {/*<span className={this.state.show ? "hover" : "hidden"}>WHITE PAPER</span>*/}
+                                                {/*<span className={this.state.show ? "hover" : "hidden"}>白書</span>*/}
+                                                {/*<span className={this.state.show ? "hover" : "hidden"}>백서</span>*/}
+                                            {/*</div>*/}
+                                        {/*</div>*/}
+                                        {/*<Dropdown overlay={menu} placement="bottomCenter">*/}
+                                            {/*<Button>*/}
+                                                {/*<span>{getLocalValue("nav_Whitepaper")}</span>*/}
+                                            {/*</Button>*/}
+                                        {/*</Dropdown>*/}
+
+
                                     </div>
                                 </li>
                             </ul>

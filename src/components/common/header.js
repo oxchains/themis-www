@@ -11,11 +11,9 @@ class Header extends Component{
 
     componentDidMount() {
         const $ = window.$;
-        // initialization of header
         $.HSCore.components.HSHeader.init($('#js-header'));
         $.HSCore.helpers.HSHamburgers.init('.hamburger');
     }
-
     render(){
         return(
             <div id="js-header" className="u-header u-header--static u-header--show-hide u-header--change-appearance"
@@ -45,39 +43,31 @@ class Header extends Component{
                                 <ul id="js-scroll-nav" className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                                     <li className='nav-item g-mx-25--lg'>
                                         <Link to="/" className='nav-link nl-nav-link g-px-0'>
-                                            首页
+                                        {getLocalValue("nav_home")}
                                         </Link>
                                     </li>
-                                    {/*<li className='nav-item g-mx-25--lg'>*/}
-                                    {/*<Link  to="/ico" className='nav-link nl-nav-link g-px-0' >*/}
-                                    {/*ICO*/}
-                                    {/*</Link>*/}
-                                    {/*</li>*/}
-
                                     <li className='nav-item g-mx-25--lg'>
                                         <a href="#ourteam" className='nav-link nl-nav-link g-px-0' >
-                                            团队
+                                        {getLocalValue("nav_team")}
                                         </a>
                                     </li>
                                     <li className="nav-item g-mx-25--lg">
-                                        <a href="https://github.com/themisnetwork" target="_blank" className="nav-link nl-nav-link g-px-0">
+                                        <a href={getLocalValue("nav_github_url")} target="_blank" className="nav-link nl-nav-link g-px-0">
                                             <i className="fa fa-github fa-lg github" aria-hidden="true"></i> GitHub
                                         </a>
                                     </li>
-
                                     <li className="nav-item g-ml-25--lg g-mr-0--lg">
-                                        <a href="javascript:;" target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>
-                                            白皮书
+                                        <a href={getLocalValue("nav_whitepaper_url")} target="_blank" className="nav-link nl-nav-link g-px-0 btn btn-md u-btn-primary nav-download"  style={{marginTop: '-3px'}}>
+                                        {getLocalValue("nav_Whitepaper")}
                                         </a>
                                     </li>
                                     <li className='nav-item g-mx-25--lg'>
-                                        <a href="https://themis.network/en/" className='nav-link nl-nav-link g-px-0' >
-                                            EN
-                                        </a>
+                                       <Link to={getLocalValue("change_to_lang")} className='nav-link nl-nav-link g-px-0'>
+                                            {getLocalValue("nav_language")}
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
-
                         </div>
                     </nav>
                 </div>

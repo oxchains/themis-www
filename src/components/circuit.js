@@ -25,16 +25,16 @@ class Circuit extends Component{
 
     render(){
         const Links = [
-            {time: '2016.12',info:"提出Themis概念，进行市场调研和商业创意，开展去中心化公平交换协议设计"},
-            {time: '2017.08',info:"发布Themis白皮书，Themis网站上线，开始进入ico阶段"},
-            {time: '2017.12',info:"完成Themis区块链设计，完成基于群托管协议和匿名声誉机制开发"},
-            {time: '2018.06',info:"Themis 1.0上线，完成Themis钱包1.0开发，支持场外数字货币交易兑换和点对点托管支付"},
-            {time: '2018.12',info:"Themis 2.0上线，提升Themis性能，支持高并发验签的数字签名，完成Themis钱包2.0开发"},
+            {time: '2016.12',info:`${getLocalValue("ciruit_route1")}`},
+            {time: '2017.08',info:`${getLocalValue("ciruit_route2")}`},
+            {time: '2017.12',info:`${getLocalValue("ciruit_route3")}`},
+            {time: '2018.06',info:`${getLocalValue("ciruit_route4")}`},
+            {time: '2018.12',info:`${getLocalValue("ciruit_route5")}`},
         ]
         return(
             <section id="circuit" className="g-py-50">
                 <div className="container text-center g-max-width-75 " style={{textAlign:'center'}}>
-                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24 g-color-white">THEMIS的线路图</h2>
+                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24 g-color-white">{getLocalValue("circuit_title")}</h2>
                     <div className="nl-underline g-mb-15">
                         <span className="nl-style"></span>
                     </div>
