@@ -11,7 +11,7 @@ module.exports = Merge(common,{
         new HtmlWebpackPlugin({
             title: 'Themis：数字货币世界去中心化的"支付宝',
             template: path.join(__dirname, 'index.ejs'),
-            publicPath: 'https://static-cdn.oxchains.com/themis-www/',
+            publicPath: 'https://themis.network/',
             filename: 'index.html',
             inject: 'body',
             minify: {

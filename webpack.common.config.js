@@ -28,7 +28,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./dist"),
         filename: "[name].[chunkhash:8].js",
-        publicPath: prod ? "https://static-cdn.oxchains.com/themis-www/" : ""
+        publicPath: prod ? "https://themis.network/" : ""
     },
     module: {
         loaders: [{
