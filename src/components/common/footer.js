@@ -1,7 +1,7 @@
 import React,{ Component }from 'react';
 import {Link} from 'react-router-dom';
 import {ROOT_URL} from '../../actions/types';
-
+import {getLocalValue} from './language'
 class Footer extends Component{
     render(){
         return(

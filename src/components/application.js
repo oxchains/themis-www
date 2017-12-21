@@ -1,5 +1,6 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../actions/types';
+import {getLocalValue} from './common/language';
 class Application extends Component{
     renderrow(item,index){
         return (

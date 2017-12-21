@@ -1,6 +1,6 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../actions/types';
-
+import {getLocalValue} from './common/language';
 class Advantage extends Component{
     renderlist(item,index){
         return (

@@ -1,6 +1,6 @@
 import React,{ Component }from 'react';
 import {connect} from 'react-redux';
-
+import {getLocalValue} from './common/language';
 class Circuit extends Component{
 
     renderrow(src,index){
@@ -39,7 +39,9 @@ class Circuit extends Component{
                         <span className="nl-style"></span>
                     </div>
                     <p className="mb-0 g-line-height-1_3 g-mb-100 hidden-sm-down g-font-size-14"></p>
-                    <div className="circuit-img hidden-sm-down"></div>
+                    <div className="circuit-img hidden-sm-down">
+                        <img width="100%" src="../../public/img/circuit.png"/>
+                    </div>
                 </div>
                 <div className="col-lg-12 hidden-md-up">
                     <p className=" g-mb-50"></p>

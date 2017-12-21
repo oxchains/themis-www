@@ -2,7 +2,7 @@
  * Created by oxchain on 2017/9/4.
  */
 import React,{ Component } from 'react';
-
+import {getLocalValue} from './common/language';
 class Lawbanner extends Component{
     render(){
         return(

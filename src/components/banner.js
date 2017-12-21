@@ -1,6 +1,6 @@
 import React,{ Component }from 'react';
 import {ROOT_URL} from '../actions/types';
-
+import {getLocalValue} from './common/language';
 class Banner extends Component{
     constructor(props) {
         super(props);

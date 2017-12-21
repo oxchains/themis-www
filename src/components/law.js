@@ -4,7 +4,7 @@
 import React,{ Component } from 'react';
 import Lawbanner from './lawbanner'
 import Article from './article'
-
+import {getLocalValue} from './common/language';
 class Law extends Component{
     componentDidMount() {
         this.node.scrollIntoView();
