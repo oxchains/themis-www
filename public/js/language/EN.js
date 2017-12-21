@@ -3,7 +3,7 @@ const EN = {
     //header部分
     nav_home: "HomePage",
     nav_team: "Team",
-    nav_language: "EN",
+    nav_language: "中文版",
     nav_Whitepaper: "Whitepaper",
     change_to_lang: "/?lang=CN",
     nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",

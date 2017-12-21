@@ -2,23 +2,15 @@ import React,{ Component }from 'react';
 import {ROOT_URL} from '../actions/types';
 import {getLocalValue} from './common/language';
 
-import { Menu, Dropdown, Button } from 'antd';
 class Banner extends Component{
     constructor(props) {
         super(props);
         this.state = {
             current: '',
-            // show: false
         };
     }
-    // handleChange(){
-    //     this.setState({
-    //         show:!this.state.show
-    //     })
-    // }
     componentDidMount() {
         const $ = window.$;
-        // $.HSCore.components.HSHeader.init($('#js-header'));
 
         let revapi1014 = $("#rev_slider_1014_1").show().revolution({
             sliderType: "standard",
@@ -89,19 +81,6 @@ class Banner extends Component{
     }
 
     render(){
-        // const menu = (
-        //     <Menu>
-        //         <Menu.Item>
-        //             <a  href="javascript:;">WHITE PAPER</a>
-        //         </Menu.Item>
-        //         <Menu.Item>
-        //             <a   href="javascript:;">白書</a>
-        //         </Menu.Item>
-        //         <Menu.Item>
-        //             <a  href="javascript:;">백서</a>
-        //         </Menu.Item>
-        //     </Menu>
-        // );
         return(
             <div>
                 <div className="g-overflow-hidden banner">
@@ -273,22 +252,6 @@ class Banner extends Component{
                                          data-paddingleft="[50,50,50,50]"
                                          style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
                                         <a className="ahover"  href={getLocalValue("nav_whitepaper_url")}>{getLocalValue("nav_Whitepaper")}</a>
-
-                                        {/*<div className="g-mt-20">*/}
-                                            {/*<div className="select-design" onClick={this.handleChange.bind(this)} >*/}
-                                                {/*<span>{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>*/}
-                                                {/*<span className={this.state.show ? "hover" : "hidden"}>WHITE PAPER</span>*/}
-                                                {/*<span className={this.state.show ? "hover" : "hidden"}>白書</span>*/}
-                                                {/*<span className={this.state.show ? "hover" : "hidden"}>백서</span>*/}
-                                            {/*</div>*/}
-                                        {/*</div>*/}
-                                        {/*<Dropdown overlay={menu} placement="bottomCenter">*/}
-                                            {/*<Button>*/}
-                                                {/*<span>{getLocalValue("nav_Whitepaper")}</span>*/}
-                                            {/*</Button>*/}
-                                        {/*</Dropdown>*/}
-
-
                                     </div>
                                 </li>
                             </ul>
