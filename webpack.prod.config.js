@@ -21,11 +21,6 @@ module.exports = Merge(common,{
             },
             chunksSortMode: 'dependency'
         }),
-        new CopyWebpackPlugin([{
-            from: './public/img',
-            to: 'public/img',
-        }
-        ]),
         new webpack.DefinePlugin({
             'process.env': {NODE_ENV: '"production"'}
         })

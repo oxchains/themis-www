@@ -25,7 +25,6 @@ ReactDOM.render(
                         {/*<Route path="/team" component={Team}/>*/}
                         <Route path="/law" component={Law}/>
                         <Route path="/" component={Home}/>
-
                     </Switch>
                     <Footer/>
                 </main>
