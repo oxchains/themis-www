@@ -6,7 +6,7 @@ const EN = {
     nav_language: "中文版",
     nav_Whitepaper: "Whitepaper",
     change_to_lang: "/?lang=CN",
-    nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
+    nav_whitepaper_url: "https://themis.network/public/Themis_whitepaper_EN_v1.pdf",
     nav_github_url: "https://github.com/themisnetwork",
     law_to_lang: "?lang=EN",
 
