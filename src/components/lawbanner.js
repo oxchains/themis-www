@@ -12,7 +12,7 @@ class Lawbanner extends Component{
                         <div className="col-lg-10 mt-auto">
                             <div className="mb-5 text-left">
                                 <div className="lawcenter g-color-white">
-                                    <div className="g-color-white  g-law-width">{getLocalValue("law_structure_title1")}</div>
+                                    <div className="g-color-white  text-center g-law-width">{getLocalValue("law_structure_title1")}</div>
                                 </div>
                                 <div className="lawcenter  g-mb-30">
                                     <p className="en-title">{getLocalValue("law_structure_title2")}</p>
