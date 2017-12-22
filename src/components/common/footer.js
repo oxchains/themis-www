@@ -45,13 +45,10 @@ class Footer extends Component{
                     <hr className="footer-line g-my-20"/>
                     <div className="container">
                         <small className="g-font-size-default">
-                            <Link className="g-color-white" to="/law">{getLocalValue("footer_title2")}</Link></small>
+                            <Link className="g-color-white" to={`/law${getLocalValue("law_to_lang")}`}>{getLocalValue("footer_title2")}</Link></small>
                     </div>
                 </footer>
-
             </div>
-
-
         )
     }
 }

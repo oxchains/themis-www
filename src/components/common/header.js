@@ -61,9 +61,9 @@ class Header extends Component{
                                         </a>
                                     </li>
                                     <li className='nav-item g-mx-25--lg'>
-                                       <Link to={getLocalValue("change_to_lang")} className='nav-link nl-nav-link g-px-0'>
+                                       <a href={getLocalValue("change_to_lang")} className='nav-link nl-nav-link g-px-0'>
                                             {getLocalValue("nav_language")}
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

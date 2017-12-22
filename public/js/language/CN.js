@@ -1,5 +1,6 @@
 const CN = {
 
+
     //header部分
     nav_home: "首页",
     nav_team: "团队",
@@ -8,6 +9,7 @@ const CN = {
     change_to_lang: "/?lang=EN",
     nav_whitepaper_url: "https://investdigital.info/public/InvestDigital_Whitepaper_CN.pdf",
     nav_github_url: "https://github.com/themisnetwork",
+    law_to_lang: "?lang=CN",
 
     // banner 部分
     about_title: "Themis：数字货币世界去中心化的 ",

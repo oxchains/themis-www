@@ -8,6 +8,8 @@ import Home from './components/home';
 import Law from './components/law';
 import '../public/js/vendor/hamburgers/hamburgers.min.css'
 import './css/main.css';
+
+import {getLocalValue} from './components/common/language'
 //
 // const createStoreWithMiddleware = compose(
 //     applyMiddleware(reduxThunk),

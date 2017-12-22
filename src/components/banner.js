@@ -138,7 +138,7 @@ class Banner extends Component{
 
                                          style={{zIndex: '6',whiteSpace: 'nowrap',color: 'rgba(255, 255, 255, 1.00)'}}>
                                         <i className="hidden-sm-down g-font-size-20 g-pos-rel g-top-minus-5 mr-2 icon-media-119 u-line-icon-pro"></i>
-                                        {getLocalValue("about_title")} <span className="nl-main">{getLocalValue("about_title2")}</span>
+                                        {getLocalValue("about_title")} <span className="nl-main">{getLocalValue("about_title2")}</span>{getLocalValue("about_title3")}
                                         <i className="hidden-sm-down g-font-size-20 g-pos-rel g-top-minus-5 ml-2 icon-media-119 u-line-icon-pro"></i>
                                     </div>
                                     <div className="tp-caption banner-title2  tp-resizeme rs-parallaxlevel-4"
@@ -273,7 +273,7 @@ class Banner extends Component{
                                          data-paddingbottom="[0,0,0,0]"
                                          style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
 
-                                            <span className="g-color-white">白皮书<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
+                                            <span className="g-color-white">{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
                                             <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url")}>{getLocalValue("nav_Whitepaper")}</a></span>
                                             <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_EN.pdf">WHITE PAPER</a></span>
                                             <span className={this.state.show ? "hover" : "hidden"}><a href="/public/InvestDigital_Whitepaper_JP.pdf">白書</a></span>
