@@ -70,7 +70,7 @@ class Ourteams extends Component {
             },
             {
                 src: `${ROOT_URL}public/img/AmiriMarat.jpg`,
-                name: 'Amir Marat',
+                name: 'Amiri Marat',
                 info: `${getLocalValue("team_section5_desc")}`
             }
         ]
