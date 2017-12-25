@@ -62,7 +62,7 @@ const CN = {
 
     //THEMIS的线路图
     circuit_title: "THEMIS的线路图",
-    circuit_img: "/public/img/circuit.png",
+    circuit_img: "/public/img/circuit.jpg",
     ciruit_route1:"提出Themis概念，进行市场调研和商业创意，开展去中心化公平交换协议设计",
     ciruit_route2:"发布Themis白皮书，Themis网站上线，开始进入ico阶段",
     ciruit_route3:"完成Themis区块链设计，完成基于群托管协议和匿名声誉机制开发",
