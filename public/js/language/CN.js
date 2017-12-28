@@ -99,7 +99,7 @@ const CN = {
     law_structure_title1:"法律结构",
     law_structure_title2:"Legal structure",
     law_structure_content1:"Themis 团队通过定向及公开出售的方式，出售基于 Themis 平 台运行的 GET Token，GET 作为 Themis 平台的结算单位和服务费 用，一经售出后不承诺退回或回购。GET 是一种虚拟商品，可对应获 得 Themis 平台的服务权限，不是证券，也非投机工具。",
-    law_structure_content2:"GET 作为虚拟商品，主要受众是对加密代币和区块链技术非常熟 悉专家、技术开发者、极客等，任何美国、新加坡公民，该两国永久 居民和注册机构将不被允许参加 GET 的公开出售。",
+    law_structure_content2:"GET 作为虚拟商品，主要受众是对加密代币和区块链技术非常熟 悉专家、技术开发者、极客等，任何中国、美国、新加坡公民，该三国永久居民和注册机构将不被允许参加 GET 的公开出售。",
     law_structure_content3:"在 GET 销售中所获的收入，将由 Themis 团队使用，主要将用 于技术开发、市场营销、法律合规、财务审计、商务合作等用途。",
     law_structure_content4:"Themis 与任何国家或地区的地域和法币均没有任何关系。为了 满足和遵守不同国家和地区的法律法规，Themis 平台可能在部分地 区无法提供全部服务，Themis 团队会尽力争取“沙箱政策”(sandbox policy)或者安全港待遇，为用户提供尽可能友好的服务。",
 
@@ -126,7 +126,7 @@ const CN = {
     risk_section_title2:"2.不充分的信息提供",
     risk_section_content2:"截止到本白皮书发布日，Themis 仍在开发阶段，其哲学理念、共识机制、算法、代码和其他技术细节和参数可能经常且频繁地更新和变化。尽管本白皮书包含了 Themis 最新的关键信息，其并不绝对完整，且仍会被 Themis 团队为了特定目的而不时进行调整和更新。因此，信息披露的不充分是不可避免且合乎清理的。",
     risk_section_title3:"3.监管风险",
-    risk_section_content3:"由于区块链的发展尚处早期，目前依然没有有关于ICO过程中的前置要求、交易要求、信息披露要求、锁定要求等相关的法规文件，而区块链技术已经成为世界上一些国家和地区的监管对象，如果监管主体插手或施加影响，则有可能对Themis 项目和GET造成影响，例如法令限制使用、销售Token诸如GET有可能受到限制、阻碍甚至直接终止Themis应用和PST的发展。",
+    risk_section_content3:"由于区块链的发展尚处早期，目前尚未有成熟的关于代币众售过程中的前置要求、交易要求、信息披露要求、锁定要求等相关的法规文件，而区块链技术已经成为世界上一些国家和地区的监管对象，如果监管主体插手或施加影响，则有可能对Themis 项目和GET造成影响，例如法令限制使用、销售Token诸如GET有可能受到限制、阻碍甚至直接终止Themis应用和PST的发展。",
     risk_section_title4:"4.开发失败或放弃",
     risk_section_content4:"Themis 仍在开发阶段，而非已准备就绪随时发布的成品。由于Themis 系统的技术复杂性，Themis 团队可能不时会面临无法预测和/或无法克服的困难。因此，Themis 的开发可能会由于任何原因而在任何时候失败或放弃（例如由于缺乏资金）。开发失败或放弃将导致 GET 无法交付给本次售卖计划的任何购买者。",
     risk_section_title5:"5.众筹资金的失窃",
