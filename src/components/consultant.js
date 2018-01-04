@@ -24,7 +24,7 @@ class Consultant extends Component{
             {src:`${ROOT_URL}public/img/DanieleBernardi.jpg`,name:`${getLocalValue("ourteam_section2_name")}`,info:`${getLocalValue("ourteam_section2_desc")}`},
             {src:`${ROOT_URL}public/img/RobertFerguson.jpg`,name:`${getLocalValue("ourteam_section3_name")}`,info:`${getLocalValue("ourteam_section3_desc")}`},
             {src:`${ROOT_URL}public/img/chenzhong.png`,name:`${getLocalValue("ourteam_section4_name")}`,info:`${getLocalValue("ourteam_section4_desc")}`},
-            {src: `${ROOT_URL}public/img/lvxujun.jpg`, name: `${getLocalValue("ourteam_section5_name")}`, info: `${getLocalValue("ourteam_section5_desc")}`},
+            // {src: `${ROOT_URL}public/img/lvxujun.jpg`, name: `${getLocalValue("ourteam_section5_name")}`, info: `${getLocalValue("ourteam_section5_desc")}`},
 
         ]
         return(

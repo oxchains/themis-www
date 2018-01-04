@@ -8,7 +8,8 @@ import  Advantage from './advantage'
 import Ourteams from "./ourteams";
 import Circuit from './circuit'
 import Consultant from './consultant'
-
+import Mission from './mission'
+import DigitalCurrency from './digital_currency'
 
 class Home extends Component{
     componentDidMount() {
@@ -18,10 +19,12 @@ class Home extends Component{
         return(
             <section id="about-section" className="g-bg-secondary g-pos-rel" ref={node => this.node = node}>
                 <Banner/>
+                <DigitalCurrency/>
+                <Mission/>
                 <Technology/>
                 <Application/>
                 <Partner/>
-                <Advantage/>
+                {/*<Advantage/>*/}
                 <Circuit/>
                 <Ourteams/>
                 <Consultant/>

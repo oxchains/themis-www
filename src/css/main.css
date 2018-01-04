@@ -155,6 +155,7 @@
     color: #606060 !important;
     padding-bottom: 100px;
 }
+
 #application img{
     width: 100%;
 }
@@ -357,4 +358,34 @@
 
 .select-design .hidden{
     display: none;
+}
+.safety-border
+{
+    box-shadow: 0 0 20px #dedede;
+    margin-left: 60px;
+}
+.safety-border:nth-child(1)
+{
+    margin-left: 0!important;
+}
+.safety-display
+{
+    display: flex;
+    justify-content: center!important;
+}
+/*themis的使命*/
+#mission
+{
+    background:url("../../public/img/矢量智能对象.png") no-repeat center;
+    background-size: cover!important;
+    color: #606060 !important;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+   /*position: relative;*/
+    /*top:-90px;*/
+}
+.num-money
+{
+    border-radius: 20px;
+    background-color: #E59C37;
 }

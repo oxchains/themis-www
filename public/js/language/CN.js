@@ -52,7 +52,7 @@ const CN = {
     cooperative_partner3_content:"Oracle是仲裁服务中讨论和审阅交易双方提供的材料时所需要的机制。OracleChain在区块链内提供现实世界数据的 Oracle 服务，其生态系统提供一系列的服务和 API，Themis通过调用这些服务和API将现实世界数据引入区块链，来决定仲裁的结果并实现其后的操作。",
 
     //THEMIS的优势
-    themis_advantage_title:"THEMIS的优势",
+    // themis_advantage_title:"THEMIS的优势",
     themis_advantage1_title:"世界顶级科学家团队",
     themis_advantage1_content:"团队成员均来自牛津大学、耶鲁大学和北京大学，依托深圳市和信中欧金融科技研究院，联合世界顶级科学家在公平交换、智能合约形式化验证等方面的尖端学术研究和工程能力，保证了Themis项目的理论性和创新性达到国际领先水平。",
     themis_advantage2_title:"密码学和区块链深厚技术积累",
@@ -146,7 +146,16 @@ const CN = {
     risk_section_title12:"12.无法预料的其它风险",
     risk_section_content12:" 基于密码学的Token是一种全新且未经测试的技术，除了本白皮书内提及的风险外，还存在着一些创始团队尚未提及或尚未预料到的风险。此外，其它风险也有可能突然出现，或者以多种已经提及的风险的组合的方式出现。",
 
+    mission_title1:"THEMIS的使命",
+    mission_title2:'THEMIS:数字货币"支付宝"',
+    mission_section1_content:"提供去中心化的第三方托管服务",
+    mission_section2_content:"实现数字货币为媒介的公平交换",
 
+
+    digital_currency:"数字货币安全托管",
+    digital_currency1_content:"数字货币蓬勃发展，应用范围不断扩大，越来越多的国家和地区都能接受数字货币作为付款方式。",
+    digital_currency2_content:"数字货币场外交易或在线购物中，面临公平交换难题:先付款?先发货?   支付和交付无法同时达成，需要托管服务保证资金安全。",
+    digital_currency3_content:"依赖单个可信第三方被普遍任务存在安全风险，比如著名的Mt.Gox遭受黑客攻击，导致时值4.6亿美元的比特币被盗。",
 
 
 };

@@ -21,7 +21,7 @@ class Partner extends Component{
     }
     renderlist(item,index){
         return (
-            <div className="col-lg-4 g-px-40 g-mb-50 g-mb-0--lg" key={index}>
+            <div className="col-lg-6 g-px-40 g-mb-50 g-mb-0--lg" key={index}>
                 <div className="text-center">
                             <span className="d-inline-block  u-icon-size--xl rounded-circle g-mb-30">
                                 <a href={item.href} target="_blank">
@@ -36,7 +36,7 @@ class Partner extends Component{
     render(){
         const listinfo = [
             {href:"https://chieftin.org/",src:`${ROOT_URL}/public/img/partner1.png`,p:`${getLocalValue("cooperative_partner1_content")}`},
-            {href:"https://www.wanchain.org/",src:`${ROOT_URL}/public/img/partner2.png`,p:`${getLocalValue("cooperative_partner2_content")}`},
+            // {href:"https://www.wanchain.org/",src:`${ROOT_URL}/public/img/partner2.png`,p:`${getLocalValue("cooperative_partner2_content")}`},
             {href:"http://oraclechain.io/",src:`${ROOT_URL}/public/img/partner3.png`,p:`${getLocalValue("cooperative_partner3_content")}`},
         ]
         return(

@@ -146,5 +146,16 @@ const EN = {
     risk_section_title12:"12.Other Unexpected Risks",
     risk_section_content12:"Cryptographic Token is a completely new and untested technology, possibly suffering from some risks. Aside from those mentioned in this whitepaper, there are some risks that some founding teams have not mentioned or have not anticipated yet. Besides, other risks may also appear suddenly, or in a combination of several of the risks already mentioned, adding new unpredictable challenges to the research and development of Cryptographic Token.",
 
+
+    mission_title1:"Themis Missions",
+    mission_title2:'THEMIS:数字货币"支付宝"',
+    mission_section1_content:"Provide decentralized Trusted Third-Party escrow service.",
+    mission_section2_content:"Achieve the fair exchange using cryptocurrencies as mediator.",
+
+
+    digital_currency:"Security Escrow for Cryptocurrencies",
+    digital_currency1_content:"As the flourish of cryptocurrencies, the scope of application is getting wider and wider, and more and more countries have accepted cryptocurrencies as payments method.",
+    digital_currency2_content:"The OTC-trading and online-shopping of cryptocurrencies are facing a problem of fair exchange: Payments first or shipments first? The payments and deliveries can’t be reached at a same time, and escrow service is requisite to secure capitals.",
+    digital_currency3_content:"Relying single Trusted Third-Party is generally considered as having security risks, for example, a famous coin exchange—Mt.Gox, suffered a loss of 460 million US dollars Bitcoins as a result of hacker attacks.",
 };
 window.EN = EN;
