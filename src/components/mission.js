@@ -25,14 +25,13 @@ class Mission extends Component{
                                     <img src={`${ROOT_URL}public/img/圆角矩形 570.png`} className="g-mb-30" alt=""/>
 
                                 </div>
-                                <p className="g-font-size-16 g-color-white g-mt-50">{getLocalValue("mission_section1_content")}</p>
+                                <p className="g-font-size-16 g-color-white g-mt-65">{getLocalValue("mission_section1_content")}</p>
                             </div>
                         </div>
                         <div className="col-sm-6 col-lg-6 text-center" >
                             <div>
-                                <div className="g-mt-30">
-                                    <img src={`${ROOT_URL}public/img/椭圆 5891.png`} style={{width:"80px"}} className="g-mb-30" alt=""/>
-
+                                <div className="g-mt-15">
+                                    <img src={`${ROOT_URL}public/img/椭圆 5891.png`}  className="g-mb-30" alt=""/>
                                 </div>
                                 <p className="g-font-size-16 g-color-white g-mt-30">{getLocalValue("mission_section2_content")}</p>
                             </div>
