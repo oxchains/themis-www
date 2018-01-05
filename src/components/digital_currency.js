@@ -4,10 +4,10 @@ import {getLocalValue} from './common/language';
 class DigitalCurrency extends Component{
     renderlist(item,index){
         return (
-            <div className="col-lg-3 g-pt-50 g-pb-20 g-px-30  g-mb-50 g-mb-0--lg  safety-border" key={index}>
+            <div className="col-lg-3 text-center g-pt-50 g-pb-20 g-px-20  g-mb-50 g-mb-0--lg  safety-border" key={index}>
                 <div className="text-center">
                             <span className="d-inline-block  u-icon-size--xl rounded-circle g-mb-50">
-                              <img src={item.src} style={{height:"132px",width:"132px"}}  alt=""/>
+                              <img src={item.src}alt=""/>
                             </span>
                     <p className="mb-0 text-left g-font-size-12">{item.p}</p>
                 </div>

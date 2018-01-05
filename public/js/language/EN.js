@@ -148,7 +148,7 @@ const EN = {
 
 
     mission_title1:"Themis Missions",
-    mission_title2:'THEMIS:数字货币"支付宝"',
+    mission_title2:'THEMIS:"Alipay"in Digital Currency',
     mission_section1_content:"Provide decentralized Trusted Third-Party escrow service.",
     mission_section2_content:"Achieve the fair exchange using cryptocurrencies as mediator.",
 

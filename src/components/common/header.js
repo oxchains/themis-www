@@ -37,7 +37,7 @@ class Header extends Component{
                               </span>
                             </button>
 
-                            <Link to="/" className="navbar-brand nl-navbar-brand"><img className='nl_logo' src={`${ROOT_URL}public/img/nl_logo.png`} alt=""/>THEMIS</Link>
+                            <Link to="/" className="navbar-brand nl-navbar-brand"><img className='nl_logo' src={`${ROOT_URL}public/img/logo5.png`} alt=""/>THEMIS</Link>
                             <div className="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--sm" id="navBar">
                                 <ul id="js-scroll-nav" className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
                                     <li className='nav-item g-mx-25--lg'>

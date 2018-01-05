@@ -12,7 +12,7 @@ class Footer extends Component{
 
                     <div className="container">
                         <a className="d-block g-width-200 g-opacity-0_5 mx-auto g-mb-20" href="index.html">
-                            <img className="img-fluid" src={`${ROOT_URL}public/img/nl_logo.png`} alt="Logo"/>
+                            <img className="img-fluid" src={`${ROOT_URL}public/img/logo5.png`} alt="Logo"/>
                         </a>
                         <div className="g-width-70x--md mx-auto">
                             <p className="mb-0">From de-centralized digital currency to de-centralized digital commerce.</p>
