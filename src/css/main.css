@@ -366,9 +366,6 @@
 .safety-border
 {
     box-shadow: 0 0 20px #dedede;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*margin-left: 60px;*/
 }
 .safety-border:nth-child(1)
 {
@@ -386,9 +383,6 @@
     background-size: cover!important;
     color: #606060 !important;
     padding-bottom: 100px;
-    /*background-color: #ffffff;*/
-   /*position: relative;*/
-    /*top:-90px;*/
 }
 .num-money
 {
