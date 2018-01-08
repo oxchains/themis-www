@@ -122,8 +122,8 @@ class Banner extends Component{
                                          data-lineheight="['37','34','25','30']"
                                          data-width="none"
                                          data-height="none"
-                                         data-fontsize="['37','34','34','34']"
-                                        // data-fontsize="['30','26','20','30']"
+                                         // data-fontsize="['37','34','34','34']"
+                                        data-fontsize="['30','26','20','30']"
                                          data-whitespace="nowrap"
 
                                          data-type="text"
@@ -136,9 +136,10 @@ class Banner extends Component{
                                          data-paddingbottom="[20,20,20,20]"
                                          data-paddingleft="[40,40,40,40]"
 
-                                         style={{zIndex: '6',whiteSpace: 'nowrap',color: 'rgba(255, 255, 255, 1.00)'}}>
+                                         style={{zIndex: '6',whiteSpace: 'nowrap', color: 'rgba(255, 255, 255, 1.00)'}}>
                                         <i className="hidden-sm-down g-font-size-20 g-pos-rel g-top-minus-5 mr-2 icon-media-119 u-line-icon-pro"></i>
-                                        {getLocalValue("about_title")} <span className="nl-main">{getLocalValue("about_title2")}</span>{getLocalValue("about_title3")}
+                                        {getLocalValue("about_title")} <span className="nl-main">{getLocalValue("about_title2")}</span>
+                                        {getLocalValue("about_title3")}
                                         <i className="hidden-sm-down g-font-size-20 g-pos-rel g-top-minus-5 ml-2 icon-media-119 u-line-icon-pro"></i>
                                     </div>
                                     <div className="tp-caption banner-title2  tp-resizeme rs-parallaxlevel-4"
@@ -149,7 +150,7 @@ class Banner extends Component{
                                          data-width="none"
                                          data-height="none"
                                          data-whitespace="nowrap"
-                                         data-fontsize="['24','24','26','24']"
+                                         data-fontsize="['20','20','20','20']"
                                          data-type="text"
                                          data-responsive_offset="on"
 
@@ -231,7 +232,7 @@ class Banner extends Component{
 
                                          style={{zIndex: '8',whiteSpace: 'nowrap',fontWeight: '400',color: 'rgba(255, 255, 255, 1.00)',borderWidth:'0px',fontSize:'12px'}}>
 
-                                        {getLocalValue("about_answer1")}<br/>{getLocalValue("about_answer2")}
+                                        {getLocalValue("about_answer1")}<br/>{getLocalValue("about_answer2")}<br/>
                                         {getLocalValue("about_answer3")}<br/>{getLocalValue("about_answer4")}
                                     </div>
 
@@ -274,9 +275,9 @@ class Banner extends Component{
                                          style={{zIndex: '9', whiteSpace: 'nowrap', fontSize: '15px',borderRadius:'5px',outline:'none',boxSizing:'border-box',cursor:'pointer'}}>
                                             <span className="g-color-white">{getLocalValue("nav_Whitepaper")}<i className="fa fa-angle-down fa-2x pull-right" aria-hidden="true" style={{marginTop: '-4px'}}></i></span>
                                             <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url")}>{getLocalValue("nav_Whitepaper")}</a></span>
-                                            <span className={this.state.show ? "hover" : "hidden"}><a href="#">WHITE PAPER</a></span>
-                                            <span className={this.state.show ? "hover" : "hidden"}><a href="#">白書</a></span>
-                                            <span className={this.state.show ? "hover" : "hidden"}><a href="#">백서</a></span>
+                                            <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url2")}>WHITE PAPER</a></span>
+                                            <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url3")}>白書</a></span>
+                                            <span className={this.state.show ? "hover" : "hidden"}><a href={getLocalValue("nav_whitepaper_url4")}>백서</a></span>
                                     </div>
                                 </li>
                             </ul>

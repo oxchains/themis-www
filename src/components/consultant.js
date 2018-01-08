@@ -30,7 +30,7 @@ class Consultant extends Component{
         return(
             <section className="g-py-50 g-pb-100">
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>
-                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24">THEMIS的顾问团队</h2>
+                    <h2 className="g-font-weight-400 nl-home-title g-font-size-24">{getLocalValue("ourteam_title")}</h2>
                     <div className="nl-underline g-mb-15">
                         <span className="nl-style"></span>
                     </div>

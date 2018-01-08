@@ -30,7 +30,7 @@ class Mission extends Component{
                         </div>
                         <div className="col-sm-6 col-lg-6 text-center" >
                             <div>
-                                <div className="g-mt-15">
+                                <div className="g-mt-10">
                                     <img src={`${ROOT_URL}public/img/椭圆 5891.png`}  className="g-mb-30" alt=""/>
                                 </div>
                                 <p className="g-font-size-16 g-color-white g-mt-30">{getLocalValue("mission_section2_content")}</p>

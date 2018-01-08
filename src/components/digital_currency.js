@@ -21,7 +21,7 @@ class DigitalCurrency extends Component{
             {src:`${ROOT_URL}public/img/店铺.png`,p:`${getLocalValue("digital_currency3_content")}`},
         ]
         return(
-            <section id="advantage" className="g-py-50 g-pb-100">
+            <section id="degital" className="g-py-50 g-pb-100">
                 <div className="container text-center g-max-width-75" style={{textAlign:'center'}}>
                     <h2 className="g-font-weight-400 nl-home-title g-font-size-24">{getLocalValue("digital_currency")}</h2>
                     <div className="nl-underline g-mb-15">

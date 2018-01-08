@@ -8,12 +8,15 @@ const CN = {
     nav_Whitepaper: "白皮书",
     change_to_lang: "/?lang=EN",
     nav_whitepaper_url: "https://themis.network/public/Themis_whitepaper_CN_v1.pdf",
+    nav_whitepaper_url2:"https://themis.network/public/Themis Whitepaper EN.pdf",
+    nav_whitepaper_url3:"https://themis.network/public/Themis Whitepaper -JP.pdf",
+    nav_whitepaper_url4:"https://themis.network/public/Themis白皮书- KR.pdf",
     nav_github_url: "https://github.com/themisnetwork",
     law_to_lang: "?lang=CN",
 
     // banner 部分
     about_title: "Themis：数字货币世界去中心化的 ",
-    about_title2: "支付宝",
+    about_title2: '"支付宝"',
     about_know: "从去中心化的数字货币到去中心化的数字商业",
     about_what:"THEMIS是什么？",
     about_answer1:"Themis是一个基于区块链的公平交换系统，",
@@ -52,7 +55,7 @@ const CN = {
     cooperative_partner3_content:"Oracle是仲裁服务中讨论和审阅交易双方提供的材料时所需要的机制。OracleChain在区块链内提供现实世界数据的 Oracle 服务，其生态系统提供一系列的服务和 API，Themis通过调用这些服务和API将现实世界数据引入区块链，来决定仲裁的结果并实现其后的操作。",
 
     //THEMIS的优势
-    // themis_advantage_title:"THEMIS的优势",
+    themis_advantage_title:"THEMIS的优势",
     themis_advantage1_title:"世界顶级科学家团队",
     themis_advantage1_content:"团队成员均来自牛津大学、耶鲁大学和北京大学，依托深圳市和信中欧金融科技研究院，联合世界顶级科学家在公平交换、智能合约形式化验证等方面的尖端学术研究和工程能力，保证了Themis项目的理论性和创新性达到国际领先水平。",
     themis_advantage2_title:"密码学和区块链深厚技术积累",
@@ -64,7 +67,7 @@ const CN = {
     circuit_title: "THEMIS的线路图",
     circuit_img: "/public/img/circuit.jpg",
     ciruit_route1:"提出Themis概念，进行市场调研和商业创意，开展去中心化公平交换协议设计",
-    ciruit_route2:"发布Themis白皮书，Themis网站上线，开始进入ico阶段",
+    ciruit_route2:"发布Themis白皮书，Themis网站上线",
     ciruit_route3:"完成Themis区块链设计，完成基于群托管协议和匿名声誉机制开发",
     ciruit_route4:"Themis 1.0上线，完成Themis钱包1.0开发，支持场外数字货币交易兑换和点对点托管支付",
     ciruit_route5:"Themis 2.0上线，提升Themis性能，支持高并发验签的数字签名，完成Themis钱包2.0开发",
@@ -75,8 +78,10 @@ const CN = {
     team_section1_desc: "负责Themis产品与架构总体设计,Danish是UCL伦敦大学区块链技术中心(CBT)的开发人员，他用ERC223协议为Overled项目ICO编写智能代币。他推广了使用 Hadoop和 Weka的在线大数据检索和存储服务，并协助开发环境的虚拟机自动配置，前端服务境的虚拟机自动配置，前端服务CKAN / Drupal集成和数据审计。他曾在信息科技服务公司 Atos做过前沿的研究项目。并且在 UCLU TechSoc中发挥协调团队的作用，并致力于推广使用面部认证系统，以增强使用面部认证系统，以增强简化大学进出安全性的方式。",
     team_section2_desc: "负责Themis商务拓展与战略规划,Jennifer是Agility Sciences Limited的首席市场官以及中英区块链协会的联合创始人。她拥有伦敦商学院的商科学位，并在毕业后致力于分布式技术带来的潜在的行业革命。她曾在波士顿咨询公司，私募和风险投资基金方面有过工作经验。 ",
     team_section3_desc: "负责Themis财务分析,Yuet是英国普华永道银行及资本市场团队中的一员，他在传统金融服务方面拥有坚固的知识和丰富的经验，他曾参与了项目的尽职调查和并购工作。但Yuet真正的热情在于颠覆性金融技术，他的激情始于在一家金融科技风险投资公司的工作，他深入研究并向市政府提议了中国二三线省市“特色小镇”的开发以及电子城市技术在基础设施上的潜在应用。Yuet还深入参与了加密货币的研究和并为多个项目的ICO提供咨询。作为中英区块链协会（CUKBA）联合创始人之一，他与英国领先的金融科技企业家有密切联系。Yuet毕业于伦敦政治经济学院，获得商科硕士学位。",
-    team_section4_desc: "Takuya毕业于英国伦敦大学皇家霍洛威学院，目前在Unicoin担任增长黑客，在市场营销，工程研发，数据分析领域均具有丰富的经验。掌握SEM推广，内容营销，程序测试，数学建模等多种技能，并参与过多个区块链项目的研发实施与运营推广，是一名在区块链以及金融创新领域的复合型人才。",
-    team_section5_desc: "负责Themis社区建设与算法研究,Amir 毕业于英国伦敦大学皇家霍洛威学院，在区块链技术和金融科技领域拥有多年实际操作经验，他深入了解加密空间和区块链知识，活跃于多个开源社区，专注于公钥密码学和共识算法的研究与实现，同时在市场调查和商业案例开发方面有丰富经验。他有优秀的沟通能力，掌握三种语言（俄语，英语和哈萨克语），并正在学习汉语。",
+    team_section4_desc:"James就读于伦敦大学皇家霍洛威学院计算机专业，是app社团的联合创始人和联合主席，UNIcoin的首席技术官和联合创始人。此外还具有自由Web开发人员和系统管理员的工作经验。他曾在思科系统公司担任技术销售工程师，负责向客户经理提供商业见解和产品主题建议。",
+    team_section5_desc:"Hubertas就读于英国伦敦大学皇家霍洛威学院金融管理专业，是皇家霍洛威学院投资与金融社副社长，app社团财务经理。他是一个掌握多种语言的交流者，目前在UNIcoin担任财务总监一职。UNIcoin是致力于学生分享经济的科技创业公司，研究内容包括区块链技术和数字货币。",
+    team_section6_desc: "Takuya毕业于英国伦敦大学皇家霍洛威学院，目前在Unicoin担任增长黑客，在市场营销，工程研发，数据分析领域均具有丰富的经验。掌握SEM推广，内容营销，程序测试，数学建模等多种技能，并参与过多个区块链项目的研发实施与运营推广，是一名在区块链以及金融创新领域的复合型人才。",
+    team_section7_desc: "Amir毕业于英国伦敦大学皇家霍洛威学院，在加密数字货币领域拥有多年实际操作经验。他深入了解加密空间和去中心化系统的知识，活跃于多个开源社区，同时在市场调查和商业案例开发方面有丰富经验。他有优秀的沟通能力，掌握三种语言（俄语，英语和哈萨克语），并正在学习汉语。",
 
     //THEMIS顾问团队
     ourteam_title: "THEMIS顾问团队",

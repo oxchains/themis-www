@@ -64,22 +64,32 @@ class Ourteams extends Component {
                 info: `${getLocalValue("team_section3_desc")}`
             },
             {
+                src: `${ROOT_URL}public/img/JamesJohnson.jpg`,
+                name: 'James Johnson',
+                info:`${getLocalValue("team_section4_desc")}`
+            },
+            {
+                src: `${ROOT_URL}public/img/HubertasTrinkunas.jpg`,
+                name: 'Hubertas Trinkunas',
+                info:`${getLocalValue("team_section5_desc")}`
+            },
+            {
                 src: `${ROOT_URL}public/img/TakuyaKoide.jpg`,
                 name: 'Takuya Koide',
-                info:`${getLocalValue("team_section4_desc")}`
+                info:`${getLocalValue("team_section6_desc")}`
             },
             {
                 src: `${ROOT_URL}public/img/AmiriMarat.jpg`,
                 name: 'Amir Marat',
-                info: `${getLocalValue("team_section5_desc")}`
+                info: `${getLocalValue("team_section7_desc")}`
             }
         ]
         return (
             <div className="ourteam" id="ourteam" name="ourteam">
                 <div className="container g-py-100">
-                    <div className="navbar-nav text-uppercase g-font-weight-600 ml-auto">
+                    <div className="navbar-nav  g-font-weight-600 ml-auto">
                         <div className="" style={{textAlign: 'center'}}>
-                            <h2 className="g-font-weight-400 g-font-size-24">THEMIS的团队</h2>
+                            <h2 className="g-font-weight-400 g-font-size-24">{getLocalValue("team_title")}</h2>
                             <div className="nl-underline g-mb-30">
                                 <span className="nl-style"></span>
                             </div>

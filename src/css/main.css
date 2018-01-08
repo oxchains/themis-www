@@ -97,6 +97,7 @@
 /*}*/
 .nl-main{
     color: #f0a401;
+    /*margin: 10px auto;*/
 }
 .banner-btn{
     box-shadow: 1px 1px 1px  #ffe63f;
@@ -213,6 +214,9 @@
 }
 /*技术优势*/
 #advantage{
+    background-color: #ffffff;
+}
+#degital{
     background-color: #ffffff;
 }
 #circuit{
@@ -362,7 +366,9 @@
 .safety-border
 {
     box-shadow: 0 0 20px #dedede;
-    margin-left: 60px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*margin-left: 60px;*/
 }
 .safety-border:nth-child(1)
 {
@@ -371,7 +377,7 @@
 .safety-display
 {
     display: flex;
-    justify-content: center!important;
+    justify-content: space-around!important;
 }
 /*themis的使命*/
 #mission
