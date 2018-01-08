@@ -1,5 +1,4 @@
 const EN = {
-
     //header部分
     nav_home: "HomePage",
     nav_team: "Team",

@@ -17,7 +17,6 @@ const static = [
     "./public/js/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js",
     "./public/js/language/CN.js",
     "./public/js/language/EN.js"
-
 ]
 module.exports = {
     entry: {

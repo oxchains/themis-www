@@ -343,14 +343,16 @@
     width: 165px;
     margin: auto;
     border-radius: 5px ;
-    border:1px solid white;
+    border:1px solid white !important;
 
 }
 .select-design span{
+    font-size: 14px !important;
     display: block;
     padding: 10px 20px !important;
 }
 .select-design span a{
+    font-size: 14px !important;
     color: white;
 }
 .select-design .hover:hover{
