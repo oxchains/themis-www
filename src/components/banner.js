@@ -219,7 +219,7 @@ class Banner extends Component{
                                          data-width="none"
                                          data-height="none"
                                          data-word-wrap="break-word"
-                                         data-fontsize="['14','14','12','12']"
+                                         data-fontsize="['16','16','14','14']"
                                          data-type="text"
                                          data-responsive_offset="on"
 

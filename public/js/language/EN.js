@@ -19,7 +19,7 @@ const EN = {
     about_know: " From decentralized digital currency to decentralized digital commerce",
     about_what:"What is Themis?",
     about_answer1:"Themis is a blockchain-based fair exchange system for digital currencies,",
-    about_answer2:"providing a decentralized escrow service for digital currencies ",
+    about_answer2:"providing a decentralized escrow service for digital currencies and",
     about_answer3:"and solving the problems of fair exchanges using digital currencies as medium.",
     about_answer4:"Themis can be applied in P2P payments of digital currency,OTC trading of digital currency and so on.  ",
     about_answer5:"",
